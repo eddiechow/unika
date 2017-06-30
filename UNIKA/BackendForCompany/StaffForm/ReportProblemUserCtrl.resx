@@ -1,0 +1,2940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="showOrderIdLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;reasonLabel.Name" xml:space="preserve">
+    <value>reasonLabel</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="perfumeIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="perfumeNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="reasonComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchOrderDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;orderDetailPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Name" xml:space="preserve">
+    <value>bottleIdLabel</value>
+  </data>
+  <data name="problemIdColumn.HeaderText" xml:space="preserve">
+    <value>Problem ID</value>
+  </data>
+  <data name="showPackageIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;reasonLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="orderIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 3</value>
+  </data>
+  <data name="photoHintLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 266</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty5Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="packageIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="zoomPhotoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="&gt;&gt;searchOrderDateLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showMobileNoLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="searchOrderIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;detailProblemGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeQty5Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName2Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showBottleNameLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="returnDateLabel.Text" xml:space="preserve">
+    <value>Return Date:</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty1Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;zoomPhotoButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="showPerfumeName3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPerfumeQty0Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;showOrderIdLabel.Name" xml:space="preserve">
+    <value>showOrderIdLabel</value>
+  </data>
+  <data name="mobileNoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 87</value>
+  </data>
+  <data name="photoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 161</value>
+  </data>
+  <data name="showPerfumeName1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reasonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty2Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;perfumeOlTablePanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="showBottleNameLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;orderFormDateTime.Name" xml:space="preserve">
+    <value>orderFormDateTime</value>
+  </data>
+  <data name="showPerfumeNote2Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;orderDateToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showEmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;orderIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="photoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bottleOlTablePanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bottleNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="browsePhotoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="browsePhotoButton.Text" xml:space="preserve">
+    <value>Browse Photo</value>
+  </data>
+  <data name="&gt;&gt;searchOrderIdLabel.Name" xml:space="preserve">
+    <value>searchOrderIdLabel</value>
+  </data>
+  <data name="perfumeIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote3Label.Name" xml:space="preserve">
+    <value>showPerfumeNote3Label</value>
+  </data>
+  <data name="showOrderDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="browsePhotoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="showNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="showPerfumeNote1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeId3Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPackageNameLabel.Parent" xml:space="preserve">
+    <value>packageOlTablePanel</value>
+  </data>
+  <data name="showPerfumeQty1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resetButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="resource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="recordReturnDateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="zoomPhotoButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;perfumeIdLabel.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;perfumeIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showOrderIdLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="orderGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 495</value>
+  </data>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="emailLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="showPerfumeNote2Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showOrderDateLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="returnDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote0Label.Name" xml:space="preserve">
+    <value>showPerfumeNote0Label</value>
+  </data>
+  <data name="detailProblemGroupBox.Text" xml:space="preserve">
+    <value>Detail Problem</value>
+  </data>
+  <data name="photoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;orderIdLabel.Name" xml:space="preserve">
+    <value>orderIdLabel</value>
+  </data>
+  <data name="&gt;&gt;perfumeNoteLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="returnDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="showPerfumeNote1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId1Label.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;problemIdColumn.Name" xml:space="preserve">
+    <value>problemIdColumn</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId3Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;zoomPhotoButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="perfumeNoteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 4</value>
+  </data>
+  <data name="&gt;&gt;showEmailLabel.Name" xml:space="preserve">
+    <value>showEmailLabel</value>
+  </data>
+  <data name="showPerfumeName5Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;perfumeQtyLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;zoomPhotoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="detailProblemGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 117</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId1Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showEmailLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;showMobileNoLabel.Name" xml:space="preserve">
+    <value>showMobileNoLabel</value>
+  </data>
+  <data name="&gt;&gt;orderDateToLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId0Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="zoomPhotoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;photoHintLabel.Name" xml:space="preserve">
+    <value>photoHintLabel</value>
+  </data>
+  <data name="orderDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="orderDetailGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="showPerfumeId5Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="showPerfumeNote5Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="innerPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 31</value>
+  </data>
+  <data name="addButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="&gt;&gt;recordReturnDateButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName3Label.Name" xml:space="preserve">
+    <value>showPerfumeName3Label</value>
+  </data>
+  <data name="&gt;&gt;showBottleIdLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="orderIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;perfumeNoteLabel.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId3Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderDateLabel.Text" xml:space="preserve">
+    <value>Order Date:</value>
+  </data>
+  <data name="showPackageIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showBottleCapacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderDateToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 6</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 165</value>
+  </data>
+  <data name="orderToDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="perfumeOlTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 156</value>
+  </data>
+  <data name="showBottleCapacityLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId2Label.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="browsePhotoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;perfumeIdLabel.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="showPerfumeName5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 136</value>
+  </data>
+  <data name="showPerfumeQty4Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="perfumeOlTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 333</value>
+  </data>
+  <data name="showPerfumeName3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 92</value>
+  </data>
+  <data name="mobileNoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mobileNoLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty4Label.Name" xml:space="preserve">
+    <value>showPerfumeQty4Label</value>
+  </data>
+  <data name="&gt;&gt;packageIdLabel.Name" xml:space="preserve">
+    <value>packageIdLabel</value>
+  </data>
+  <data name="&gt;&gt;bottleCapacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="addressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName5Label.Name" xml:space="preserve">
+    <value>showPerfumeName5Label</value>
+  </data>
+  <data name="&gt;&gt;perfumeIdLabel.Name" xml:space="preserve">
+    <value>perfumeIdLabel</value>
+  </data>
+  <data name="showPerfumeId3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeQty0Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;orderDetailPanel.Parent" xml:space="preserve">
+    <value>orderDetailGroupBox</value>
+  </data>
+  <data name="bottleCapacityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;returnDateLabel.Name" xml:space="preserve">
+    <value>returnDateLabel</value>
+  </data>
+  <data name="showEmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId1Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="photoHintLabel.Text" xml:space="preserve">
+    <value>Please upload photo which is not greater than 6 MB</value>
+  </data>
+  <data name="orderIdLabel.Text" xml:space="preserve">
+    <value>Order ID:</value>
+  </data>
+  <data name="showPerfumeQty5Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showReportDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName1Label.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="photoBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;showPackageIdLabel.Parent" xml:space="preserve">
+    <value>packageOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showPerfumeId1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPerfumeQty3Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;perfumeQtyLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderDetailPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="showAddressLabel" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="addressLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showMobileNoLabel" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showEmailLabel" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="emailLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showOrderDateLabel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="orderDateLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showOrderIdLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nameLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showNameLabel" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="orderIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mobileNoLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;reportDateLabel.Name" xml:space="preserve">
+    <value>reportDateLabel</value>
+  </data>
+  <data name="showPerfumeName0Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="showOrderIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;searchOrderIdLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId4Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;orderDetailPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showReportDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="naReturnDateCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="showPerfumeNote0Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="resource.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="perfumeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 15</value>
+  </data>
+  <data name="showPackageNameLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="showPerfumeId0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;reportDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;packageIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId2Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleNameLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;showPackageIdLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="recordReturnDateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 346</value>
+  </data>
+  <data name="orderDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="orderDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName0Label.Name" xml:space="preserve">
+    <value>showPerfumeName0Label</value>
+  </data>
+  <data name="&gt;&gt;photoHintLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchOrderDateLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="orderIdTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchOrderIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="showPerfumeQty3Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;searchOrderDateLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="showPerfumeId1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 48</value>
+  </data>
+  <data name="reasonHintLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="showPerfumeNote4Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="showPerfumeName0Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;showBottleCapacityLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;reasonLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;addButton.Name" xml:space="preserve">
+    <value>addButton</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="packageNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;naReturnDateCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;showOrderDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeNote0Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="searchOrderDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="packageOlTablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="showPerfumeNote0Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;showOrderDateLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName3Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showPerfumeNote2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 70</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showPerfumeQty0Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="packageIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 319</value>
+  </data>
+  <data name="perfumeQtyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="orderDetailPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="addButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;showOrderIdLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="showNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;innerPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reasonHintLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="nameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="orderDateToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 19</value>
+  </data>
+  <data name="showPerfumeName1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 48</value>
+  </data>
+  <data name="showPerfumeId0Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mobileNoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote5Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="reportDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 31</value>
+  </data>
+  <data name="orderIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showPerfumeNote4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 114</value>
+  </data>
+  <data name="showAddressLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;showBottleCapacityLabel.Name" xml:space="preserve">
+    <value>showBottleCapacityLabel</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="returnDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 295</value>
+  </data>
+  <data name="showPerfumeNote3Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="photoBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeQty3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPackageIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="nameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="orderGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="orderIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="naReturnDateCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty0Label.Name" xml:space="preserve">
+    <value>showPerfumeQty0Label</value>
+  </data>
+  <data name="showPerfumeId2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="reasonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="orderDetailGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName3Label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;naReturnDateCheckBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;zoomPhotoButton.Name" xml:space="preserve">
+    <value>zoomPhotoButton</value>
+  </data>
+  <data name="showPerfumeName2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bottleCapacityLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="bottleIdLabel.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="perfumeQtyLabel.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="showPerfumeQty1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote5Label.Name" xml:space="preserve">
+    <value>showPerfumeNote5Label</value>
+  </data>
+  <data name="bottleOlTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 46</value>
+  </data>
+  <data name="showPerfumeQty5Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showAddressLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;orderDateToLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;packageOlTablePanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="orderToDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 29</value>
+  </data>
+  <data name="showPerfumeId1Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="bottleIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;orderToDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;returnDateLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;showBottleIdLabel.Name" xml:space="preserve">
+    <value>showBottleIdLabel</value>
+  </data>
+  <data name="&gt;&gt;perfumeNameLabel.Name" xml:space="preserve">
+    <value>perfumeNameLabel</value>
+  </data>
+  <data name="showBottleIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeName4Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 15</value>
+  </data>
+  <data name="showPerfumeNote5Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;orderIdLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="packageIdLabel.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="&gt;&gt;showOrderDateLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;bottleCapacityLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="orderDateToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="orderDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showMobileNoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote1Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="showPerfumeQty0Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId0Label.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;perfumeNameLabel.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showPerfumeId1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="orderDateToLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="orderFormDateTime" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="orderToDateTime" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="showPerfumeNote4Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="addressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 108</value>
+  </data>
+  <data name="orderDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="showBottleNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="photoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;detailProblemGroupBox.Name" xml:space="preserve">
+    <value>detailProblemGroupBox</value>
+  </data>
+  <data name="&gt;&gt;showPackageNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPackageIdLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="reasonComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="orderToDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="showPackageNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="innerPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;reasonHintLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="perfumeQtyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 4</value>
+  </data>
+  <data name="showPerfumeId2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showMobileNoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 87</value>
+  </data>
+  <data name="&gt;&gt;innerPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote5Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="orderIdColumn.HeaderText" xml:space="preserve">
+    <value>Order ID</value>
+  </data>
+  <data name="showBottleNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showBottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="bottleCapacityLabel.Text" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="showEmailLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote1Label.Name" xml:space="preserve">
+    <value>showPerfumeNote1Label</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroUserControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="recordReturnDateButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 59</value>
+  </data>
+  <data name="zoomPhotoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 3</value>
+  </data>
+  <data name="showPerfumeName3Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote1Label.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="showPackageNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="showPerfumeQty4Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="perfumeNoteLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeQty2Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;returnDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showAddressLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="packageIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="photoPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="showPerfumeNote0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 26</value>
+  </data>
+  <data name="showReportDateLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="showBottleNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="returnDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="orderDetailGroupBox.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>412, 495</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="showOrderIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 3</value>
+  </data>
+  <data name="&gt;&gt;addButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="addButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="innerPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 287</value>
+  </data>
+  <data name="&gt;&gt;mobileNoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="reportDate.HeaderText" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="tableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="showPerfumeId3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 92</value>
+  </data>
+  <data name="bottleOlTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 281</value>
+  </data>
+  <data name="showPerfumeQty2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reportDateLabel.Text" xml:space="preserve">
+    <value>Report Date:</value>
+  </data>
+  <data name="showPerfumeId5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 136</value>
+  </data>
+  <data name="detailProblemGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="showPerfumeName1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showNameLabel.Name" xml:space="preserve">
+    <value>showNameLabel</value>
+  </data>
+  <data name="&gt;&gt;orderDataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="perfumeNoteLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeId3Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showPerfumeQty2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 70</value>
+  </data>
+  <data name="bottleOlTablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="showBottleCapacityLabel" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="bottleCapacityLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showBottleNameLabel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showBottleIdLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="bottleNameLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="showPerfumeName2Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="perfumeNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showOrderDateLabel.Name" xml:space="preserve">
+    <value>showOrderDateLabel</value>
+  </data>
+  <data name="&gt;&gt;perfumeOlTablePanel.Name" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="packageNameLabel.Text" xml:space="preserve">
+    <value>Package Name</value>
+  </data>
+  <data name="&gt;&gt;packageOlTablePanel.Parent" xml:space="preserve">
+    <value>orderDetailGroupBox</value>
+  </data>
+  <data name="showNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Name" xml:space="preserve">
+    <value>photoLabel</value>
+  </data>
+  <data name="&gt;&gt;photoBox.Parent" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="showPerfumeName4Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showPerfumeId1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="photoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 15</value>
+  </data>
+  <data name="&gt;&gt;recordReturnDateButton.Parent" xml:space="preserve">
+    <value>detailProblemGroupBox</value>
+  </data>
+  <data name="packageNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="perfumeNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="orderDetailPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 190</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote3Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="perfumeOlTablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote2Label.Name" xml:space="preserve">
+    <value>showPerfumeNote2Label</value>
+  </data>
+  <data name="naReturnDateCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="showPerfumeName2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPerfumeQty1Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="orderIdColumn.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote5Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId3Label.Name" xml:space="preserve">
+    <value>showPerfumeId3Label</value>
+  </data>
+  <data name="showPerfumeName5Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPackageIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;showEmailLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="packageNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 4</value>
+  </data>
+  <data name="showReportDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 0</value>
+  </data>
+  <data name="orderDetailGroupBox.Text" xml:space="preserve">
+    <value>Order Detail</value>
+  </data>
+  <data name="showPerfumeNote3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="bottleIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;perfumeNoteLabel.Name" xml:space="preserve">
+    <value>perfumeNoteLabel</value>
+  </data>
+  <data name="orderDetailGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 495</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;orderToDateTime.Name" xml:space="preserve">
+    <value>orderToDateTime</value>
+  </data>
+  <data name="resource.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="photoHintLabel" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showReportDateLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="photoPanel" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="photoLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="reasonComboBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="reasonLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="returnDateLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="innerPanel" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="reasonHintLabel" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="reportDateLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,Absolute,20,AutoSize,0,Absolute,20,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="packageOlTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
+  </data>
+  <data name="perfumeOlTablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="showPerfumeId0Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeName1Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showEmailLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote4Label.Name" xml:space="preserve">
+    <value>showPerfumeNote4Label</value>
+  </data>
+  <data name="bottleIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchOrderDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="&gt;&gt;reportDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bottleCapacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 4</value>
+  </data>
+  <data name="showPerfumeName2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote2Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>detailProblemGroupBox</value>
+  </data>
+  <data name="showPerfumeNote4Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote1Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="orderDateToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="addressLabel.Text" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="bottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="searchOrderIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="&gt;&gt;showPackageIdLabel.Name" xml:space="preserve">
+    <value>showPackageIdLabel</value>
+  </data>
+  <data name="innerPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;orderDateColumn.Name" xml:space="preserve">
+    <value>orderDateColumn</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="&gt;&gt;orderIdColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showPerfumeQty1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;detailProblemGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Name" xml:space="preserve">
+    <value>orderDateLabel</value>
+  </data>
+  <data name="perfumeIdLabel.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="&gt;&gt;addButton.Parent" xml:space="preserve">
+    <value>detailProblemGroupBox</value>
+  </data>
+  <data name="showPerfumeQty1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 48</value>
+  </data>
+  <data name="showBottleCapacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 26</value>
+  </data>
+  <data name="&gt;&gt;packageNameLabel.Name" xml:space="preserve">
+    <value>packageNameLabel</value>
+  </data>
+  <data name="&gt;&gt;photoHintLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="showPerfumeQty3Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;showEmailLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="customerNameColumn.HeaderText" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId2Label.Name" xml:space="preserve">
+    <value>showPerfumeId2Label</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="returnDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeQty4Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="orderGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="showPerfumeNote2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote3Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId0Label.Name" xml:space="preserve">
+    <value>showPerfumeId0Label</value>
+  </data>
+  <data name="showOrderDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="perfumeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 4</value>
+  </data>
+  <data name="orderDateToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;orderFormDateTime.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;reportDataGridView.Name" xml:space="preserve">
+    <value>reportDataGridView</value>
+  </data>
+  <data name="showPerfumeName2Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="showPerfumeNote2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showBottleIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="orderDetailPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="addressLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="orderGroupBox.Text" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="showPerfumeName4Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>Customer Name:</value>
+  </data>
+  <data name="bottleIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Name" xml:space="preserve">
+    <value>addressLabel</value>
+  </data>
+  <data name="showPerfumeQty2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote2Label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;packageNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty4Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName4Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showPerfumeId2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="orderDateToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="showBottleCapacityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="innerPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="returnDateTime" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="naReturnDateCheckBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="recordReturnDateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="reasonHintLabel.Text" xml:space="preserve">
+    <value>Please select reason</value>
+  </data>
+  <data name="perfumeNoteLabel.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1245, 495</value>
+  </data>
+  <data name="packageIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPackageNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showReportDateLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="orderFormDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="innerPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;orderGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showPerfumeName0Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPackageIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeQty2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;returnDateTime.Parent" xml:space="preserve">
+    <value>innerPanel</value>
+  </data>
+  <data name="showBottleCapacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPerfumeId5Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="bottleOlTablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;perfumeNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;orderGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;problemIdColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showBottleNameLabel.Name" xml:space="preserve">
+    <value>showBottleNameLabel</value>
+  </data>
+  <data name="browsePhotoButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="reportDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 85</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showReportDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;orderDetailGroupBox.Name" xml:space="preserve">
+    <value>orderDetailGroupBox</value>
+  </data>
+  <data name="emailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="perfumeIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty3Label.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;photoBox.Name" xml:space="preserve">
+    <value>photoBox</value>
+  </data>
+  <data name="&gt;&gt;reportDateLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="photoLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="perfumeQtyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showOrderDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeNote5Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="reportDate.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;orderToDateTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>Customer Email:</value>
+  </data>
+  <data name="&gt;&gt;reasonLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="showBottleIdLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;perfumeOlTablePanel.Parent" xml:space="preserve">
+    <value>orderDetailGroupBox</value>
+  </data>
+  <data name="showBottleIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="showPackageNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="orderDetailPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="returnDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 15</value>
+  </data>
+  <data name="orderDateToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId0Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeId5Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mobileNoLabel.Name" xml:space="preserve">
+    <value>mobileNoLabel</value>
+  </data>
+  <data name="photoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;orderDateToLabel.Name" xml:space="preserve">
+    <value>orderDateToLabel</value>
+  </data>
+  <data name="reportDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="showBottleCapacityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote3Label.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="showPerfumeQty4Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId4Label.Name" xml:space="preserve">
+    <value>showPerfumeId4Label</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderFormDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="bottleOlTablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bottleOlTablePanel.Parent" xml:space="preserve">
+    <value>orderDetailGroupBox</value>
+  </data>
+  <data name="mobileNoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 45</value>
+  </data>
+  <data name="orderDetailGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="showPerfumeId2Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showPerfumeNote4Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty5Label.Name" xml:space="preserve">
+    <value>showPerfumeQty5Label</value>
+  </data>
+  <data name="showPerfumeName5Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="orderFormDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showPackageIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;orderToDateTime.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="showPerfumeName4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 114</value>
+  </data>
+  <data name="reportDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="reasonLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;returnDateTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="emailLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;bottleOlTablePanel.Name" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showBottleNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName2Label.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="orderDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 404</value>
+  </data>
+  <data name="&gt;&gt;showAddressLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="packageOlTablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="showPerfumeQty5Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="perfumeNoteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="showMobileNoLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mobileNoLabel.Text" xml:space="preserve">
+    <value>Mobile Phone No:</value>
+  </data>
+  <data name="&gt;&gt;innerPanel.Name" xml:space="preserve">
+    <value>innerPanel</value>
+  </data>
+  <data name="&gt;&gt;orderDetailGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="photoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 194</value>
+  </data>
+  <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="showPerfumeNote4Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="detailProblemGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;showPackageNameLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName4Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote0Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showBottleNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;bottleNameLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty0Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="photoHintLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="showOrderIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="photoHintLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="bottleOlTablePanel.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="bottleCapacityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;showAddressLabel.Name" xml:space="preserve">
+    <value>showAddressLabel</value>
+  </data>
+  <data name="packageOlTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 46</value>
+  </data>
+  <data name="&gt;&gt;searchOrderDateLabel.Name" xml:space="preserve">
+    <value>searchOrderDateLabel</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>orderGroupBox</value>
+  </data>
+  <data name="&gt;&gt;perfumeNoteLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="returnDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="orderIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty1Label.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="showOrderIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="searchOrderIdLabel.Text" xml:space="preserve">
+    <value>Oder ID</value>
+  </data>
+  <data name="reasonHintLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="showPerfumeNote1Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="packageOlTablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="showPerfumeId0Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="searchOrderIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 5</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty5Label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showReportDateLabel.Name" xml:space="preserve">
+    <value>showReportDateLabel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId4Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;photoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showReportDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeName2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 70</value>
+  </data>
+  <data name="perfumeNameLabel.Text" xml:space="preserve">
+    <value>Perfume Name</value>
+  </data>
+  <data name="&gt;&gt;reportDataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;packageOlTablePanel.Name" xml:space="preserve">
+    <value>packageOlTablePanel</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 2</value>
+  </data>
+  <data name="&gt;&gt;reasonComboBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName1Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showEmailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeName3Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;recordReturnDateButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="packageNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="returnDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reasonLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="zoomPhotoButton.Text" xml:space="preserve">
+    <value>Zoom the Photo</value>
+  </data>
+  <data name="&gt;&gt;reasonComboBox.Name" xml:space="preserve">
+    <value>reasonComboBox</value>
+  </data>
+  <data name="recordReturnDateButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName0Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;showReportDateLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="naReturnDateCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 13, 3</value>
+  </data>
+  <data name="&gt;&gt;orderFormDateTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote0Label.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="reasonLabel.Text" xml:space="preserve">
+    <value>Reason:</value>
+  </data>
+  <data name="reportDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="searchOrderDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;packageNameLabel.Parent" xml:space="preserve">
+    <value>packageOlTablePanel</value>
+  </data>
+  <data name="resource.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="packageOlTablePanel.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="orderDateColumn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="showPerfumeName0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="orderToDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="showPerfumeName5Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showPerfumeQty4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 114</value>
+  </data>
+  <data name="&gt;&gt;mobileNoLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;packageIdLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;orderDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="photoPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="photoBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="photoPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showPerfumeId4Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 15</value>
+  </data>
+  <data name="&gt;&gt;showMobileNoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="orderFormDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty1Label.Name" xml:space="preserve">
+    <value>showPerfumeQty1Label</value>
+  </data>
+  <data name="&gt;&gt;bottleNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="packageOlTablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="showPackageNameLabel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPackageIdLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="packageNameLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="packageIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="showPerfumeName1Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;orderDetailGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="returnDateTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="returnDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty2Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showPerfumeId1Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="photoBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="orderIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportProblemUserCtrl</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId5Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName2Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;orderDataGridView.Parent" xml:space="preserve">
+    <value>orderGroupBox</value>
+  </data>
+  <data name="photoLabel.Text" xml:space="preserve">
+    <value>Photo:</value>
+  </data>
+  <data name="showPerfumeNote3Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;innerPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty2Label.Name" xml:space="preserve">
+    <value>showPerfumeQty2Label</value>
+  </data>
+  <data name="innerPanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="photoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 159</value>
+  </data>
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote0Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;orderDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showOrderIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="reasonHintLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="recordReturnDateButton.Text" xml:space="preserve">
+    <value>Record the Return Date</value>
+  </data>
+  <data name="bottleOlTablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="showPerfumeQty5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 136</value>
+  </data>
+  <data name="perfumeIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty2Label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="showPerfumeName0Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="packageNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="&gt;&gt;naReturnDateCheckBox.Name" xml:space="preserve">
+    <value>naReturnDateCheckBox</value>
+  </data>
+  <data name="&gt;&gt;packageNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="showPerfumeNote1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="perfumeOlTablePanel.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Name" xml:space="preserve">
+    <value>nameLabel</value>
+  </data>
+  <data name="showPerfumeNote5Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeName3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reportDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId5Label.Name" xml:space="preserve">
+    <value>showPerfumeId5Label</value>
+  </data>
+  <data name="perfumeQtyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeQty0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 26</value>
+  </data>
+  <data name="orderFormDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="mobileNoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 15</value>
+  </data>
+  <data name="&gt;&gt;reportDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeId0Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeId4Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;reasonComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchOrderIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="bottleNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 15</value>
+  </data>
+  <data name="showPerfumeNote3Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeName5Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="orderDetailPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="showPerfumeNote3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeNote5Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty4Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;customerNameColumn.Name" xml:space="preserve">
+    <value>customerNameColumn</value>
+  </data>
+  <data name="&gt;&gt;bottleCapacityLabel.Name" xml:space="preserve">
+    <value>bottleCapacityLabel</value>
+  </data>
+  <data name="&gt;&gt;reportDateLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="showPerfumeQty1Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;reportDate.Name" xml:space="preserve">
+    <value>reportDate</value>
+  </data>
+  <data name="showReportDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showNameLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="showPerfumeName1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showBottleNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 26</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;returnDateTime.Name" xml:space="preserve">
+    <value>returnDateTime</value>
+  </data>
+  <data name="&gt;&gt;perfumeNameLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote4Label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="showOrderIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="orderDateColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="showPerfumeId0Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showPerfumeId4Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="showPerfumeNote1Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 66</value>
+  </data>
+  <data name="bottleNameLabel.Text" xml:space="preserve">
+    <value>Bottle Name</value>
+  </data>
+  <data name="&gt;&gt;recordReturnDateButton.Name" xml:space="preserve">
+    <value>recordReturnDateButton</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Name" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="photoHintLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;reasonHintLabel.Name" xml:space="preserve">
+    <value>reasonHintLabel</value>
+  </data>
+  <data name="bottleCapacityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="showReportDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;perfumeOlTablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;returnDateLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="showEmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 66</value>
+  </data>
+  <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 346</value>
+  </data>
+  <data name="showPerfumeNote0Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="nameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="photoHintLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;showMobileNoLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="showPerfumeId5Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;orderIdTextBox.Name" xml:space="preserve">
+    <value>orderIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="detailProblemGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 378</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="showPerfumeQty3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mobileNoLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId2Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="showReportDateLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;perfumeQtyLabel.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName1Label.Name" xml:space="preserve">
+    <value>showPerfumeName1Label</value>
+  </data>
+  <data name="reasonLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;reasonHintLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeQty0Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="orderIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="showPerfumeNote5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 136</value>
+  </data>
+  <data name="&gt;&gt;orderIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeNote3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 92</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName0Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="photoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeId5Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;orderGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName3Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeQty4Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;orderIdColumn.Name" xml:space="preserve">
+    <value>orderIdColumn</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 111</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId5Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showPerfumeId2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 70</value>
+  </data>
+  <data name="&gt;&gt;orderDetailGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;packageIdLabel.Parent" xml:space="preserve">
+    <value>packageOlTablePanel</value>
+  </data>
+  <data name="reasonComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 25</value>
+  </data>
+  <data name="resource.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;showPerfumeQty4Label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bottleOlTablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="reasonComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="orderIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId3Label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;orderGroupBox.Name" xml:space="preserve">
+    <value>orderGroupBox</value>
+  </data>
+  <data name="bottleNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showPerfumeName4Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;orderDetailPanel.Name" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="bottleCapacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="&gt;&gt;showBottleIdLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="showPerfumeId3Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showPerfumeNote2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="photoBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="showMobileNoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;reasonComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="naReturnDateCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="naReturnDateCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName5Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;photoHintLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="searchOrderIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="orderDateColumn.HeaderText" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="&gt;&gt;packageOlTablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchOrderIdLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName0Label.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>detailProblemGroupBox</value>
+  </data>
+  <data name="perfumeNoteLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote4Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;orderDataGridView.Name" xml:space="preserve">
+    <value>orderDataGridView</value>
+  </data>
+  <data name="&gt;&gt;orderFormDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="showAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty0Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="emailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;detailProblemGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reportDataGridView.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId5Label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="showPerfumeNote0Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;reasonHintLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="reportDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="orderToDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 3</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName2Label.Name" xml:space="preserve">
+    <value>showPerfumeName2Label</value>
+  </data>
+  <data name="searchOrderDateLabel.Text" xml:space="preserve">
+    <value>Oder Date</value>
+  </data>
+  <data name="photoHintLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 15</value>
+  </data>
+  <data name="photoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 72</value>
+  </data>
+  <data name="&gt;&gt;customerNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perfumeOlTablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName4Label.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;showBottleNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="perfumeQtyLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="orderGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Name" xml:space="preserve">
+    <value>browsePhotoButton</value>
+  </data>
+  <data name="showNameLabel.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="showMobileNoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="showPerfumeName4Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="naReturnDateCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 15</value>
+  </data>
+  <data name="showMobileNoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="searchOrderDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="showOrderDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="naReturnDateCheckBox.Text" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="&gt;&gt;photoBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty0Label.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;showBottleCapacityLabel.Parent" xml:space="preserve">
+    <value>bottleOlTablePanel</value>
+  </data>
+  <data name="perfumeIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName5Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="bottleNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 4</value>
+  </data>
+  <data name="reportDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Name" xml:space="preserve">
+    <value>emailLabel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName1Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="returnDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="showPerfumeId4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 114</value>
+  </data>
+  <data name="photoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;searchOrderIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty3Label.Name" xml:space="preserve">
+    <value>showPerfumeQty3Label</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName5Label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="showPerfumeNote1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 48</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty5Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="bottleNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;orderIdLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="addressLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 346</value>
+  </data>
+  <data name="showPerfumeQty5Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="showBottleCapacityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="orderDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="showBottleIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="innerPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeName4Label.Name" xml:space="preserve">
+    <value>showPerfumeName4Label</value>
+  </data>
+  <data name="showPerfumeId4Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="packageIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="addressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showOrderDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 24</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty3Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="&gt;&gt;bottleNameLabel.Name" xml:space="preserve">
+    <value>bottleNameLabel</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 26</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="reasonHintLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;orderIdTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="showAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 82</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="returnDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="showPerfumeId3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="showPerfumeId4Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId4Label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="showPerfumeQty3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 92</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="showNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 45</value>
+  </data>
+  <data name="&gt;&gt;searchOrderDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;returnDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="showPerfumeId2Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty1Label.Parent" xml:space="preserve">
+    <value>perfumeOlTablePanel</value>
+  </data>
+  <data name="&gt;&gt;showPackageNameLabel.Name" xml:space="preserve">
+    <value>showPackageNameLabel</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote2Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="addressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="showPackageNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="reasonHintLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 52</value>
+  </data>
+  <data name="photoPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="problemIdColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="showPerfumeQty2Label.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;showPerfumeId1Label.Name" xml:space="preserve">
+    <value>showPerfumeId1Label</value>
+  </data>
+  <data name="orderIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;naReturnDateCheckBox.Parent" xml:space="preserve">
+    <value>innerPanel</value>
+  </data>
+  <data name="showPerfumeName3Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeQty3Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="perfumeOlTablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="showPerfumeQty5Label" Row="6" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote5Label" Row="6" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName5Label" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId5Label" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeQty4Label" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote4Label" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName4Label" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId4Label" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeQty3Label" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote3Label" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName3Label" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId3Label" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeQty2Label" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote2Label" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName2Label" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId2Label" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeQty1Label" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote1Label" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName1Label" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeQty0Label" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="perfumeQtyLabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId1Label" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeNote0Label" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeName0Label" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showPerfumeId0Label" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="perfumeNoteLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="perfumeNameLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="perfumeIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="reasonComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 24</value>
+  </data>
+  <data name="&gt;&gt;showNameLabel.Parent" xml:space="preserve">
+    <value>orderDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;showBottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="showAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 108</value>
+  </data>
+  <data name="&gt;&gt;showPerfumeNote4Label.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="reasonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="&gt;&gt;perfumeQtyLabel.Name" xml:space="preserve">
+    <value>perfumeQtyLabel</value>
+  </data>
+  <data name="resource.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="showPerfumeName0Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 23, 3</value>
+  </data>
+  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;orderIdTextBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="reportDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="browsePhotoButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="zoomPhotoButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="problemIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="orderDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="orderIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="customerNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="reportDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

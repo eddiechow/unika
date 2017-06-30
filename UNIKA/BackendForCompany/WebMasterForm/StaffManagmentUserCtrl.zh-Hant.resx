@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="staffIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 111</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="staffIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="staffIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="staffIdLabel.Text" xml:space="preserve">
+    <value>員工編號：</value>
+  </data>
+  <data name="positionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="positionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="positionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="positionLabel.Text" xml:space="preserve">
+    <value>職位：</value>
+  </data>
+  <data name="staffIdHintLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 15</value>
+  </data>
+  <data name="staffIdHintLabel.Text" xml:space="preserve">
+    <value>該編號由系統產生</value>
+  </data>
+  <data name="positionErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="positionErrorLabel.Text" xml:space="preserve">
+    <value>請選擇職位</value>
+  </data>
+  <data name="backendStaffRadioButton.Text" xml:space="preserve">
+    <value>員工</value>
+  </data>
+  <data name="backendManagerRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="backendManagerRadioButton.Text" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="webMasterRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="webMasterRadioButton.Text" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="givenNameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="givenNameErrorLabel.Text" xml:space="preserve">
+    <value>請輸入英文員工名字</value>
+  </data>
+  <data name="givenNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 79</value>
+  </data>
+  <data name="givenNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="givenNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="givenNameLabel.Text" xml:space="preserve">
+    <value>員工名字：</value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 150</value>
+  </data>
+  <data name="emailLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>員工電郵：</value>
+  </data>
+  <data name="surnameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="surnameErrorLabel.Text" xml:space="preserve">
+    <value>請輸入英文員工姓氏</value>
+  </data>
+  <data name="surnameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 8</value>
+  </data>
+  <data name="surnameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="surnameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="surnameLabel.Text" xml:space="preserve">
+    <value>員工姓氏：</value>
+  </data>
+  <data name="passwordHintLabel.Text" xml:space="preserve">
+    <value>密碼必須輸入。
+密碼必須最少有8個字和要符合下列要求：
+- 其中一個必須要有特別符號: ?!%^*-
+- 大階, 小階和數字。
+- 空白鍵是不允許。</value>
+  </data>
+  <data name="passwordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 8</value>
+  </data>
+  <data name="passwordLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="passwordLabel.Text" xml:space="preserve">
+    <value>員工密碼：</value>
+  </data>
+  <data name="resetFormButton.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="updateButton.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>777, 34</value>
+  </data>
+  <data name="searchAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 4</value>
+  </data>
+  <data name="searchAllButton.Text" xml:space="preserve">
+    <value>搜尋全部</value>
+  </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 4</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="searchStaffIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="searchStaffIdLabel.Text" xml:space="preserve">
+    <value>員工編號：</value>
+  </data>
+  <data name="searchStaffIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="staffListGroupBox.Text" xml:space="preserve">
+    <value>員工名單</value>
+  </data>
+  <data name="staffDataResetButton.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="selectAllButton.Text" xml:space="preserve">
+    <value>全選</value>
+  </data>
+  <data name="deselectAllButton.Text" xml:space="preserve">
+    <value>取消全選</value>
+  </data>
+  <data name="staffIdColumn.HeaderText" xml:space="preserve">
+    <value>員工編號</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="staffIdColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="staffNameColumn.HeaderText" xml:space="preserve">
+    <value>員工姓名</value>
+  </data>
+  <data name="emailColumn.HeaderText" xml:space="preserve">
+    <value>員工電郵</value>
+  </data>
+  <data name="positionColumn.HeaderText" xml:space="preserve">
+    <value>職位</value>
+  </data>
+  <data name="positionColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+</root>

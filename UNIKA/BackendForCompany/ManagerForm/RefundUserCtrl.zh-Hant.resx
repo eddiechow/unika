@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nonRefundOrderGroupBox.Text" xml:space="preserve">
+    <value>非退款訂單</value>
+  </data>
+  <data name="getNonRefundOrdersButton.Text" xml:space="preserve">
+    <value>取得訂單</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notRedundedStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="notRedundedStartDate.Text" xml:space="preserve">
+    <value>開始日期</value>
+  </data>
+  <data name="notRedundedEndDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 7</value>
+  </data>
+  <data name="notRedundedEndDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="notRedundedEndDateLabel.Text" xml:space="preserve">
+    <value>結束日期</value>
+  </data>
+  <data name="notRedundedStartDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 4</value>
+  </data>
+  <data name="nonRefundOrderIDColumn.HeaderText" xml:space="preserve">
+    <value>訂單編號</value>
+  </data>
+  <data name="orderDateColumn.HeaderText" xml:space="preserve">
+    <value>訂單日期</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="orderDateColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="nonRefundPaidTimeColumn.HeaderText" xml:space="preserve">
+    <value>付款時間</value>
+  </data>
+  <data name="nonRefundPaidTimeColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="nonRefundPaymentStstusColumn.HeaderText" xml:space="preserve">
+    <value>支付狀態</value>
+  </data>
+  <data name="nonRefundPaymentStstusColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="nonRefundOrderAmountColumn.HeaderText" xml:space="preserve">
+    <value>訂單總額</value>
+  </data>
+  <data name="nonRefundOrderAmountColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="doRefundButton.Text" xml:space="preserve">
+    <value>退款</value>
+  </data>
+  <data name="showOrderTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 4</value>
+  </data>
+  <data name="orderTotalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="orderTotalLabel.Text" xml:space="preserve">
+    <value>訂單總額：</value>
+  </data>
+  <data name="showPackageSubTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 26</value>
+  </data>
+  <data name="showPackageDiscountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="showPackageUnitPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 26</value>
+  </data>
+  <data name="showPackageNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 26</value>
+  </data>
+  <data name="packageSubTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 4</value>
+  </data>
+  <data name="packageSubTotalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="packageSubTotalLabel.Text" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="packageDiscountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 4</value>
+  </data>
+  <data name="packageDiscountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="packageDiscountLabel.Text" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="packageUnitPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 4</value>
+  </data>
+  <data name="packageUnitPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="packageUnitPriceLabel.Text" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="packageNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="packageNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="packageNameLabel.Text" xml:space="preserve">
+    <value>包裝名稱</value>
+  </data>
+  <data name="packageIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="packageIdLabel.Text" xml:space="preserve">
+    <value>產品 ID</value>
+  </data>
+  <data name="showBottleCapacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 26</value>
+  </data>
+  <data name="bottleCapacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 4</value>
+  </data>
+  <data name="bottleCapacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="bottleCapacityLabel.Text" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="showBottleNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 26</value>
+  </data>
+  <data name="bottleNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="bottleNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="bottleNameLabel.Text" xml:space="preserve">
+    <value>香水樽名稱</value>
+  </data>
+  <data name="bottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="bottleIdLabel.Text" xml:space="preserve">
+    <value>產品 ID</value>
+  </data>
+  <data name="bottleSubTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 4</value>
+  </data>
+  <data name="bottleSubTotalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="bottleSubTotalLabel.Text" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="bottleDiscountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 4</value>
+  </data>
+  <data name="bottleDiscountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="bottleDiscountLabel.Text" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="bottleUnitPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 4</value>
+  </data>
+  <data name="bottleUnitPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="bottleUnitPriceLabel.Text" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="showBottleSubTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 26</value>
+  </data>
+  <data name="showBottleDiscountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 26</value>
+  </data>
+  <data name="showBottleUnitPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 26</value>
+  </data>
+  <data name="showPerfumeSubTotal5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 136</value>
+  </data>
+  <data name="showPerfumeQty5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 136</value>
+  </data>
+  <data name="showPerfumeNote5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 136</value>
+  </data>
+  <data name="showPerfumeDiscount5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 136</value>
+  </data>
+  <data name="showPerfumeUnitPrice5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 136</value>
+  </data>
+  <data name="showPerfumeName5Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 136</value>
+  </data>
+  <data name="showPerfumeSubTotal4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 114</value>
+  </data>
+  <data name="showPerfumeQty4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 114</value>
+  </data>
+  <data name="showPerfumeNote4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 114</value>
+  </data>
+  <data name="showPerfumeDiscount4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 114</value>
+  </data>
+  <data name="showPerfumeUnitPrice4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 114</value>
+  </data>
+  <data name="showPerfumeName4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 114</value>
+  </data>
+  <data name="showPerfumeSubTotal3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 92</value>
+  </data>
+  <data name="showPerfumeQty3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 92</value>
+  </data>
+  <data name="showPerfumeNote3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 92</value>
+  </data>
+  <data name="showPerfumeDiscount3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 92</value>
+  </data>
+  <data name="showPerfumeUnitPrice3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 92</value>
+  </data>
+  <data name="showPerfumeName3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 92</value>
+  </data>
+  <data name="showPerfumeSubTotal2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 70</value>
+  </data>
+  <data name="showPerfumeQty2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 70</value>
+  </data>
+  <data name="showPerfumeNote2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 70</value>
+  </data>
+  <data name="showPerfumeDiscount2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 70</value>
+  </data>
+  <data name="showPerfumeName2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 70</value>
+  </data>
+  <data name="showPerfumeSubTotal1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 48</value>
+  </data>
+  <data name="showPerfumeQty1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 48</value>
+  </data>
+  <data name="showPerfumeNote1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 48</value>
+  </data>
+  <data name="showPerfumeDiscount1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 48</value>
+  </data>
+  <data name="showPerfumeUnitPrice1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 48</value>
+  </data>
+  <data name="showPerfumeUnitPrice2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 70</value>
+  </data>
+  <data name="showPerfumeName1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 48</value>
+  </data>
+  <data name="showPerfumeQty0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 26</value>
+  </data>
+  <data name="perfumeSubTotalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 4</value>
+  </data>
+  <data name="perfumeSubTotalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="perfumeSubTotalLabel.Text" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="perfumeQtyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 4</value>
+  </data>
+  <data name="perfumeQtyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="perfumeQtyLabel.Text" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="showPerfumeNote0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 26</value>
+  </data>
+  <data name="showPerfumeDiscount0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="showPerfumeUnitPrice0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 26</value>
+  </data>
+  <data name="showPerfumeName0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 26</value>
+  </data>
+  <data name="perfumeNoteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 4</value>
+  </data>
+  <data name="perfumeNoteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="perfumeNoteLabel.Text" xml:space="preserve">
+    <value>香調</value>
+  </data>
+  <data name="perfumeDiscountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 4</value>
+  </data>
+  <data name="perfumeDiscountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="perfumeDiscountLabel.Text" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="perfumeUnitPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 4</value>
+  </data>
+  <data name="perfumeUnitPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="perfumeUnitPriceLabel.Text" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="perfumeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="perfumeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="perfumeNameLabel.Text" xml:space="preserve">
+    <value>香水名稱</value>
+  </data>
+  <data name="perfumeIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="perfumeIdLabel.Text" xml:space="preserve">
+    <value>產品 ID</value>
+  </data>
+  <data name="showPerfumeSubTotal0Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 26</value>
+  </data>
+  <data name="innerPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 156</value>
+  </data>
+  <data name="innerPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 182</value>
+  </data>
+  <data name="showRefundedAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 5</value>
+  </data>
+  <data name="refundAndLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="refundAndLabel.Text" xml:space="preserve">
+    <value>及</value>
+  </data>
+  <data name="refundDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 15</value>
+  </data>
+  <data name="refundDateLabel.Text" xml:space="preserve">
+    <value>退款日期及金額：</value>
+  </data>
+  <data name="showAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 83</value>
+  </data>
+  <data name="addressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 83</value>
+  </data>
+  <data name="addressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="addressLabel.Text" xml:space="preserve">
+    <value>地址：</value>
+  </data>
+  <data name="innerPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 0</value>
+  </data>
+  <data name="orderDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="orderDateLabel.Text" xml:space="preserve">
+    <value>訂單日期：</value>
+  </data>
+  <data name="showOrderDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 5</value>
+  </data>
+  <data name="innerPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 130</value>
+  </data>
+  <data name="barCodeShowLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 5</value>
+  </data>
+  <data name="barCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="barCodeLabel.Text" xml:space="preserve">
+    <value>條碼：</value>
+  </data>
+  <data name="showMobileNoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 109</value>
+  </data>
+  <data name="payDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 161</value>
+  </data>
+  <data name="payDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="payDateLabel.Text" xml:space="preserve">
+    <value>付款日期：</value>
+  </data>
+  <data name="approveDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 135</value>
+  </data>
+  <data name="approveDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="approveDateLabel.Text" xml:space="preserve">
+    <value>審核日期：</value>
+  </data>
+  <data name="mobileNoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 109</value>
+  </data>
+  <data name="mobileNoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 15</value>
+  </data>
+  <data name="mobileNoLabel.Text" xml:space="preserve">
+    <value>手提電話號碼：</value>
+  </data>
+  <data name="orderIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 5</value>
+  </data>
+  <data name="orderIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 15</value>
+  </data>
+  <data name="orderIdLabel.Text" xml:space="preserve">
+    <value>訂單 ID：</value>
+  </data>
+  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 31</value>
+  </data>
+  <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>客戶姓名：</value>
+  </data>
+  <data name="showNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 31</value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 57</value>
+  </data>
+  <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>客戶電郵：</value>
+  </data>
+  <data name="showEmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 57</value>
+  </data>
+  <data name="barCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 3</value>
+  </data>
+  <data name="searchBarCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 19</value>
+  </data>
+  <data name="searchBarCodeLabel.Text" xml:space="preserve">
+    <value>條碼</value>
+  </data>
+  <data name="refundedOrderGroupBox.Text" xml:space="preserve">
+    <value>退款訂單</value>
+  </data>
+  <data name="paypalRefundedStartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="paypalRefundedStartLabel.Text" xml:space="preserve">
+    <value>開始日期</value>
+  </data>
+  <data name="paypalRefundedEndLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 7</value>
+  </data>
+  <data name="paypalRefundedEndLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="paypalRefundedEndLabel.Text" xml:space="preserve">
+    <value>結束日期</value>
+  </data>
+  <data name="paypalRefundedStartDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 4</value>
+  </data>
+  <data name="getRefundedOrdersButton.Text" xml:space="preserve">
+    <value>取得訂單</value>
+  </data>
+  <data name="failConnectPayPalMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 238</value>
+  </data>
+  <data name="failConnectPayPalMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="failConnectPayPalMsg.Text" xml:space="preserve">
+    <value>無法連接PayPal伺服器</value>
+  </data>
+  <data name="refundOrderIDColumn.HeaderText" xml:space="preserve">
+    <value>訂單編號</value>
+  </data>
+  <data name="refundOrderDateColumn.HeaderText" xml:space="preserve">
+    <value>訂單日期</value>
+  </data>
+  <data name="refundOrderPaidDateColumn.HeaderText" xml:space="preserve">
+    <value>付款時間</value>
+  </data>
+  <data name="refundOrderAmountColumn.HeaderText" xml:space="preserve">
+    <value>訂單總額</value>
+  </data>
+  <data name="refundOrderAmountColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="refundOrderRefundDateColumn.HeaderText" xml:space="preserve">
+    <value>退款日期</value>
+  </data>
+  <data name="refundAmountColumn.HeaderText" xml:space="preserve">
+    <value>退款金額</value>
+  </data>
+</root>

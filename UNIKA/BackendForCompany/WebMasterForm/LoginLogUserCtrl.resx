@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="staffIDLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="staffIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="staffIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 8</value>
+  </data>
+  <data name="staffIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="staffIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="staffIDLabel.Text" xml:space="preserve">
+    <value>Staff ID</value>
+  </data>
+  <data name="&gt;&gt;staffIDLabel.Name" xml:space="preserve">
+    <value>staffIDLabel</value>
+  </data>
+  <data name="&gt;&gt;staffIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffIDLabel.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffIDLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="staffSurnameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="staffSurnameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="staffSurnameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 37</value>
+  </data>
+  <data name="staffSurnameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="staffSurnameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="staffSurnameLabel.Text" xml:space="preserve">
+    <value>Staff Surname</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameLabel.Name" xml:space="preserve">
+    <value>staffSurnameLabel</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameLabel.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="staffGivenNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="staffGivenNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="staffGivenNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 66</value>
+  </data>
+  <data name="staffGivenNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="staffGivenNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="staffGivenNameLabel.Text" xml:space="preserve">
+    <value>Staff Given Name</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameLabel.Name" xml:space="preserve">
+    <value>staffGivenNameLabel</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameLabel.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="staffDateStartLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="staffDateStartLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="staffDateStartLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 96</value>
+  </data>
+  <data name="staffDateStartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="staffDateStartLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="staffDateStartLabel.Text" xml:space="preserve">
+    <value>Date (Start)</value>
+  </data>
+  <data name="&gt;&gt;staffDateStartLabel.Name" xml:space="preserve">
+    <value>staffDateStartLabel</value>
+  </data>
+  <data name="&gt;&gt;staffDateStartLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffDateStartLabel.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffDateStartLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="searchStaffAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchStaffAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 183</value>
+  </data>
+  <data name="searchStaffAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchStaffAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="searchStaffAllButton.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="&gt;&gt;searchStaffAllButton.Name" xml:space="preserve">
+    <value>searchStaffAllButton</value>
+  </data>
+  <data name="&gt;&gt;searchStaffAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchStaffAllButton.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchStaffAllButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchStaffButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchStaffButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 152</value>
+  </data>
+  <data name="searchStaffButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchStaffButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="searchStaffButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchStaffButton.Name" xml:space="preserve">
+    <value>searchStaffButton</value>
+  </data>
+  <data name="&gt;&gt;searchStaffButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchStaffButton.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchStaffButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchStaffStartDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchStaffStartDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 90</value>
+  </data>
+  <data name="searchStaffStartDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchStaffStartDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 25</value>
+  </data>
+  <data name="searchStaffStartDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;searchStaffStartDateTime.Name" xml:space="preserve">
+    <value>searchStaffStartDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchStaffStartDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchStaffStartDateTime.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchStaffStartDateTime.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="staffGivenNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="staffGivenNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 61</value>
+  </data>
+  <data name="staffGivenNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 23</value>
+  </data>
+  <data name="staffGivenNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameTextBox.Name" xml:space="preserve">
+    <value>staffGivenNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameTextBox.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffGivenNameTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="staffSurnameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>199, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="staffSurnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 32</value>
+  </data>
+  <data name="staffSurnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 23</value>
+  </data>
+  <data name="staffSurnameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameTextBox.Name" xml:space="preserve">
+    <value>staffSurnameTextBox</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameTextBox.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffSurnameTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="staffIdTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>199, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="staffIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 3</value>
+  </data>
+  <data name="staffIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 23</value>
+  </data>
+  <data name="staffIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;staffIdTextBox.Name" xml:space="preserve">
+    <value>staffIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;staffIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;staffIdTextBox.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffIdTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="StaffDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StaffDateColumn.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="StaffDateColumn.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="StaffIDColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StaffIDColumn.HeaderText" xml:space="preserve">
+    <value>Staff ID</value>
+  </data>
+  <data name="StaffIDColumn.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <metadata name="StaffNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StaffNameColumn.HeaderText" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="StaffNameColumn.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <metadata name="StaffStatusColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StaffStatusColumn.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StaffStatusColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="staffLoginLogDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 3</value>
+  </data>
+  <data name="staffLoginLogDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 512</value>
+  </data>
+  <data name="staffLoginLogDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogDataGridView.Name" xml:space="preserve">
+    <value>staffLoginLogDataGridView</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogDataGridView.Parent" xml:space="preserve">
+    <value>staffLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchSupplierAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchSupplierAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 154</value>
+  </data>
+  <data name="searchSupplierAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchSupplierAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="searchSupplierAllButton.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierAllButton.Name" xml:space="preserve">
+    <value>searchSupplierAllButton</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierAllButton.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierAllButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchSupplierButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchSupplierButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 123</value>
+  </data>
+  <data name="searchSupplierButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchSupplierButton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="searchSupplierButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierButton.Name" xml:space="preserve">
+    <value>searchSupplierButton</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierButton.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="searchSupplierEndDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchSupplierEndDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 92</value>
+  </data>
+  <data name="searchSupplierEndDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchSupplierEndDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 25</value>
+  </data>
+  <data name="searchSupplierEndDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierEndDateTime.Name" xml:space="preserve">
+    <value>searchSupplierEndDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierEndDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierEndDateTime.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierEndDateTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchSupplierStartDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchSupplierStartDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 61</value>
+  </data>
+  <data name="searchSupplierStartDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchSupplierStartDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 25</value>
+  </data>
+  <data name="searchSupplierStartDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierStartDateTime.Name" xml:space="preserve">
+    <value>searchSupplierStartDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierStartDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierStartDateTime.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchSupplierStartDateTime.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="supplierNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>97, 1</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="supplierNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 32</value>
+  </data>
+  <data name="supplierNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 23</value>
+  </data>
+  <data name="supplierNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;supplierNameTextBox.Name" xml:space="preserve">
+    <value>supplierNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;supplierNameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;supplierNameTextBox.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierNameTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="supplierIDTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode4" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location4" type="System.Drawing.Point, System.Drawing">
+    <value>97, 1</value>
+  </data>
+  <data name="resource.Size4" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex4" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="supplierIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 3</value>
+  </data>
+  <data name="supplierIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 23</value>
+  </data>
+  <data name="supplierIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;supplierIDTextBox.Name" xml:space="preserve">
+    <value>supplierIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;supplierIDTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;supplierIDTextBox.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierIDTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="SupplierDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SupplierDateColumn.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="SupplierDateColumn.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="SupplierIDColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SupplierIDColumn.HeaderText" xml:space="preserve">
+    <value>Supplier ID</value>
+  </data>
+  <data name="SupplierIDColumn.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <metadata name="SupplierNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SupplierNameColumn.HeaderText" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="SupplierNameColumn.Width" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <metadata name="SupplierStatusColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SupplierStatusColumn.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SupplierStatusColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="supplierLoginLogGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 3</value>
+  </data>
+  <data name="supplierLoginLogGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 512</value>
+  </data>
+  <data name="supplierLoginLogGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogGridView.Name" xml:space="preserve">
+    <value>supplierLoginLogGridView</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogGridView.Parent" xml:space="preserve">
+    <value>supplierLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="supplierIDLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="supplierIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="supplierIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 8</value>
+  </data>
+  <data name="supplierIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="supplierIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="supplierIDLabel.Text" xml:space="preserve">
+    <value>Supplier ID</value>
+  </data>
+  <data name="&gt;&gt;supplierIDLabel.Name" xml:space="preserve">
+    <value>supplierIDLabel</value>
+  </data>
+  <data name="&gt;&gt;supplierIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierIDLabel.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierIDLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="supplierNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="supplierNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="supplierNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 37</value>
+  </data>
+  <data name="supplierNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="supplierNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="supplierNameLabel.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="&gt;&gt;supplierNameLabel.Name" xml:space="preserve">
+    <value>supplierNameLabel</value>
+  </data>
+  <data name="&gt;&gt;supplierNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierNameLabel.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierNameLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="supplierDateEndLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="supplierDateEndLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="supplierDateEndLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 98</value>
+  </data>
+  <data name="supplierDateEndLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="supplierDateEndLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="supplierDateEndLabel.Text" xml:space="preserve">
+    <value>Date (End)</value>
+  </data>
+  <data name="&gt;&gt;supplierDateEndLabel.Name" xml:space="preserve">
+    <value>supplierDateEndLabel</value>
+  </data>
+  <data name="&gt;&gt;supplierDateEndLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierDateEndLabel.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierDateEndLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="supplierDateStartLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="supplierDateStartLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="supplierDateStartLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 67</value>
+  </data>
+  <data name="supplierDateStartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="supplierDateStartLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="supplierDateStartLabel.Text" xml:space="preserve">
+    <value>Date (Start)</value>
+  </data>
+  <data name="&gt;&gt;supplierDateStartLabel.Name" xml:space="preserve">
+    <value>supplierDateStartLabel</value>
+  </data>
+  <data name="&gt;&gt;supplierDateStartLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierDateStartLabel.Parent" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierDateStartLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchCustomerAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchCustomerAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 183</value>
+  </data>
+  <data name="searchCustomerAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchCustomerAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="searchCustomerAllButton.Text" xml:space="preserve">
+    <value>Search All</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerAllButton.Name" xml:space="preserve">
+    <value>searchCustomerAllButton</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerAllButton.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerAllButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchCustomerButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchCustomerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 152</value>
+  </data>
+  <data name="searchCustomerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="searchCustomerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="searchCustomerButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerButton.Name" xml:space="preserve">
+    <value>searchCustomerButton</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerButton.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchCustomerEndDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 121</value>
+  </data>
+  <data name="searchCustomerEndDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchCustomerEndDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="searchCustomerEndDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerEndDateTime.Name" xml:space="preserve">
+    <value>searchCustomerEndDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerEndDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerEndDateTime.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerEndDateTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="searchCustomerStartDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 90</value>
+  </data>
+  <data name="searchCustomerStartDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchCustomerStartDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="searchCustomerStartDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerStartDateTime.Name" xml:space="preserve">
+    <value>searchCustomerStartDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerStartDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerStartDateTime.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchCustomerStartDateTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="resource.Image5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode5" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location5" type="System.Drawing.Point, System.Drawing">
+    <value>178, 1</value>
+  </data>
+  <data name="resource.Size5" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex5" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="customerGivenNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 61</value>
+  </data>
+  <data name="customerGivenNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="customerGivenNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameTextBox.Name" xml:space="preserve">
+    <value>customerGivenNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameTextBox.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="resource.Image6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode6" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location6" type="System.Drawing.Point, System.Drawing">
+    <value>178, 1</value>
+  </data>
+  <data name="resource.Size6" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex6" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="customerSurnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 32</value>
+  </data>
+  <data name="customerSurnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="customerSurnameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameTextBox.Name" xml:space="preserve">
+    <value>customerSurnameTextBox</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameTextBox.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.Image7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode7" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location7" type="System.Drawing.Point, System.Drawing">
+    <value>178, 1</value>
+  </data>
+  <data name="resource.Size7" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex7" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="customerIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 3</value>
+  </data>
+  <data name="customerIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="customerIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;customerIDTextBox.Name" xml:space="preserve">
+    <value>customerIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;customerIDTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;customerIDTextBox.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerIDTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="CustomerDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerDateColumn.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CustomerDateColumn.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <metadata name="CustomerIDColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerIDColumn.HeaderText" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="CustomerIDColumn.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <metadata name="CustomerNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerNameColumn.HeaderText" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="CustomerNameColumn.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <metadata name="OperatingSystemColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="OperatingSystemColumn.HeaderText" xml:space="preserve">
+    <value>Operating System</value>
+  </data>
+  <data name="OperatingSystemColumn.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <metadata name="BrowserColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BrowserColumn.HeaderText" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="BrowserColumn.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <metadata name="IPColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IPColumn.HeaderText" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="IPColumn.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <metadata name="CustomerStatusColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerStatusColumn.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CustomerStatusColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="customerLoginLogDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 3</value>
+  </data>
+  <data name="customerLoginLogDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>847, 512</value>
+  </data>
+  <data name="customerLoginLogDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogDataGridView.Name" xml:space="preserve">
+    <value>customerLoginLogDataGridView</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogDataGridView.Parent" xml:space="preserve">
+    <value>customerLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="customerIDLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="customerIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 8</value>
+  </data>
+  <data name="customerIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="customerIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="customerIDLabel.Text" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="&gt;&gt;customerIDLabel.Name" xml:space="preserve">
+    <value>customerIDLabel</value>
+  </data>
+  <data name="&gt;&gt;customerIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerIDLabel.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerIDLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="customerSurnameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="customerSurnameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerSurnameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 37</value>
+  </data>
+  <data name="customerSurnameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="customerSurnameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="customerSurnameLabel.Text" xml:space="preserve">
+    <value>Customer Surname</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameLabel.Name" xml:space="preserve">
+    <value>customerSurnameLabel</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameLabel.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerSurnameLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="customerGivenNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="customerGivenNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerGivenNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 66</value>
+  </data>
+  <data name="customerGivenNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="customerGivenNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="customerGivenNameLabel.Text" xml:space="preserve">
+    <value>Customer Given Name</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameLabel.Name" xml:space="preserve">
+    <value>customerGivenNameLabel</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameLabel.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerGivenNameLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="customerDateEndLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="customerDateEndLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerDateEndLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 127</value>
+  </data>
+  <data name="customerDateEndLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="customerDateEndLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="customerDateEndLabel.Text" xml:space="preserve">
+    <value>Date (End)</value>
+  </data>
+  <data name="&gt;&gt;customerDateEndLabel.Name" xml:space="preserve">
+    <value>customerDateEndLabel</value>
+  </data>
+  <data name="&gt;&gt;customerDateEndLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerDateEndLabel.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerDateEndLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="customerDateStartLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="customerDateStartLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="customerDateStartLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 96</value>
+  </data>
+  <data name="customerDateStartLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="customerDateStartLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="customerDateStartLabel.Text" xml:space="preserve">
+    <value>Date (Start)</value>
+  </data>
+  <data name="&gt;&gt;customerDateStartLabel.Name" xml:space="preserve">
+    <value>customerDateStartLabel</value>
+  </data>
+  <data name="&gt;&gt;customerDateStartLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerDateStartLabel.Parent" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerDateStartLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1140, 8</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="staffLoginLogCriteria.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="searchStaffEndDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchStaffEndDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 121</value>
+  </data>
+  <data name="searchStaffEndDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchStaffEndDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 25</value>
+  </data>
+  <data name="searchStaffEndDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;searchStaffEndDateTime.Name" xml:space="preserve">
+    <value>searchStaffEndDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchStaffEndDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchStaffEndDateTime.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;searchStaffEndDateTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="staffDateEndlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="staffDateEndlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="staffDateEndlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="staffDateEndlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 127</value>
+  </data>
+  <data name="staffDateEndlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="staffDateEndlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="staffDateEndlabel.Text" xml:space="preserve">
+    <value>Date (End)</value>
+  </data>
+  <data name="&gt;&gt;staffDateEndlabel.Name" xml:space="preserve">
+    <value>staffDateEndlabel</value>
+  </data>
+  <data name="&gt;&gt;staffDateEndlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffDateEndlabel.Parent" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffDateEndlabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="staffLoginLogCriteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="staffLoginLogCriteria.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="staffLoginLogCriteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 212</value>
+  </data>
+  <data name="staffLoginLogCriteria.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogCriteria.Name" xml:space="preserve">
+    <value>staffLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogCriteria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogCriteria.Parent" xml:space="preserve">
+    <value>staffLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogCriteria.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="staffLoginLogCriteria.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="staffIdTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffIDLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="staffSurnameLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchStaffAllButton" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffSurnameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchStaffButton" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffGivenNameLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchStaffEndDateTime" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffDateEndlabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="staffGivenNameTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="staffDateStartLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchStaffStartDateTime" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="staffLoginLogTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="staffLoginLogTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 515</value>
+  </data>
+  <data name="staffLoginLogTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="staffLoginLogTabPage.Text" xml:space="preserve">
+    <value>Staff's Login Log</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogTabPage.Name" xml:space="preserve">
+    <value>staffLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogTabPage.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogTabPage.Parent" xml:space="preserve">
+    <value>loginLogTabControl</value>
+  </data>
+  <data name="&gt;&gt;staffLoginLogTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="supplierLoginLogCriteria.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="supplierLoginLogCriteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="supplierLoginLogCriteria.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="supplierLoginLogCriteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 184</value>
+  </data>
+  <data name="supplierLoginLogCriteria.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogCriteria.Name" xml:space="preserve">
+    <value>supplierLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogCriteria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogCriteria.Parent" xml:space="preserve">
+    <value>supplierLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogCriteria.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="supplierLoginLogCriteria.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="supplierIDLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="supplierNameLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="supplierDateStartLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchSupplierEndDateTime" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchSupplierAllButton" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="supplierDateEndLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchSupplierButton" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="supplierNameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="supplierIDTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchSupplierStartDateTime" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="supplierLoginLogTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="supplierLoginLogTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 515</value>
+  </data>
+  <data name="supplierLoginLogTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="supplierLoginLogTabPage.Text" xml:space="preserve">
+    <value>Supplier's Login Log</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogTabPage.Name" xml:space="preserve">
+    <value>supplierLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogTabPage.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogTabPage.Parent" xml:space="preserve">
+    <value>loginLogTabControl</value>
+  </data>
+  <data name="&gt;&gt;supplierLoginLogTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="customerLoginLogCriteria.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="customerLoginLogCriteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="customerLoginLogCriteria.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="customerLoginLogCriteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 214</value>
+  </data>
+  <data name="customerLoginLogCriteria.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogCriteria.Name" xml:space="preserve">
+    <value>customerLoginLogCriteria</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogCriteria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogCriteria.Parent" xml:space="preserve">
+    <value>customerLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogCriteria.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="customerLoginLogCriteria.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="customerIDLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="customerIDTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="customerSurnameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchCustomerAllButton" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="customerSurnameLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchCustomerButton" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="customerGivenNameLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchCustomerEndDateTime" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="customerDateEndLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="customerGivenNameTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchCustomerStartDateTime" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="customerDateStartLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="customerLoginLogTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="customerLoginLogTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 515</value>
+  </data>
+  <data name="customerLoginLogTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="customerLoginLogTabPage.Text" xml:space="preserve">
+    <value>Customer's Login Log</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogTabPage.Name" xml:space="preserve">
+    <value>customerLoginLogTabPage</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogTabPage.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogTabPage.Parent" xml:space="preserve">
+    <value>loginLogTabControl</value>
+  </data>
+  <data name="&gt;&gt;customerLoginLogTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="loginLogTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 3</value>
+  </data>
+  <data name="loginLogTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 557</value>
+  </data>
+  <data name="loginLogTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;loginLogTabControl.Name" xml:space="preserve">
+    <value>loginLogTabControl</value>
+  </data>
+  <data name="&gt;&gt;loginLogTabControl.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;loginLogTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loginLogTabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1245, 563</value>
+  </data>
+  <data name="&gt;&gt;StaffDateColumn.Name" xml:space="preserve">
+    <value>StaffDateColumn</value>
+  </data>
+  <data name="&gt;&gt;StaffDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffIDColumn.Name" xml:space="preserve">
+    <value>StaffIDColumn</value>
+  </data>
+  <data name="&gt;&gt;StaffIDColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffNameColumn.Name" xml:space="preserve">
+    <value>StaffNameColumn</value>
+  </data>
+  <data name="&gt;&gt;StaffNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffStatusColumn.Name" xml:space="preserve">
+    <value>StaffStatusColumn</value>
+  </data>
+  <data name="&gt;&gt;StaffStatusColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SupplierDateColumn.Name" xml:space="preserve">
+    <value>SupplierDateColumn</value>
+  </data>
+  <data name="&gt;&gt;SupplierDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SupplierIDColumn.Name" xml:space="preserve">
+    <value>SupplierIDColumn</value>
+  </data>
+  <data name="&gt;&gt;SupplierIDColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SupplierNameColumn.Name" xml:space="preserve">
+    <value>SupplierNameColumn</value>
+  </data>
+  <data name="&gt;&gt;SupplierNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SupplierStatusColumn.Name" xml:space="preserve">
+    <value>SupplierStatusColumn</value>
+  </data>
+  <data name="&gt;&gt;SupplierStatusColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerDateColumn.Name" xml:space="preserve">
+    <value>CustomerDateColumn</value>
+  </data>
+  <data name="&gt;&gt;CustomerDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerIDColumn.Name" xml:space="preserve">
+    <value>CustomerIDColumn</value>
+  </data>
+  <data name="&gt;&gt;CustomerIDColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerNameColumn.Name" xml:space="preserve">
+    <value>CustomerNameColumn</value>
+  </data>
+  <data name="&gt;&gt;CustomerNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OperatingSystemColumn.Name" xml:space="preserve">
+    <value>OperatingSystemColumn</value>
+  </data>
+  <data name="&gt;&gt;OperatingSystemColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowserColumn.Name" xml:space="preserve">
+    <value>BrowserColumn</value>
+  </data>
+  <data name="&gt;&gt;BrowserColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IPColumn.Name" xml:space="preserve">
+    <value>IPColumn</value>
+  </data>
+  <data name="&gt;&gt;IPColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerStatusColumn.Name" xml:space="preserve">
+    <value>CustomerStatusColumn</value>
+  </data>
+  <data name="&gt;&gt;CustomerStatusColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LoginLogUserCtrl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroUserControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>

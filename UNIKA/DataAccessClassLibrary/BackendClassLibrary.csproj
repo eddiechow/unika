@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87C4D235-1A89-4785-A2E9-B74AC50573A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccessClassLibrary</RootNamespace>
+    <AssemblyName>DataAccessClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\CustomerDA.cs" />
+    <Compile Include="DataAccess\CustomerLoginLogDA.cs" />
+    <Compile Include="Data\Bottle.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\Discount.cs" />
+    <Compile Include="Data\Employee.cs" />
+    <Compile Include="Data\LoginLog.cs" />
+    <Compile Include="Data\Notice.cs" />
+    <Compile Include="Data\Order.cs" />
+    <Compile Include="Data\OrderLine.cs" />
+    <Compile Include="Data\Package.cs" />
+    <Compile Include="Data\Perfume.cs" />
+    <Compile Include="Data\ProblemReport.cs" />
+    <Compile Include="Data\Product.cs" />
+    <Compile Include="Data\ProductDiscount.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Data\Supplier.cs" />
+    <Compile Include="DataAccess\DiscountDA.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="DataAccess\EmployeeDA.cs" />
+    <Compile Include="DataAccess\EmployeeLoginLogDA.cs" />
+    <Compile Include="FormatChecker.cs" />
+    <Compile Include="ImageConverter.cs" />
+    <Compile Include="DataAccess\NoticeDA.cs" />
+    <Compile Include="DataAccess\OrderDA.cs" />
+    <Compile Include="DataAccess\OrderLineDA.cs" />
+    <Compile Include="DataAccess\ProblemReportDA.cs" />
+    <Compile Include="DataAccess\ProductBottleDA.cs" />
+    <Compile Include="DataAccess\ProductBottleDiscountDA.cs" />
+    <Compile Include="DataAccess\ProductPackageDA.cs" />
+    <Compile Include="DataAccess\ProductPackageDiscountDA.cs" />
+    <Compile Include="DataAccess\ProductPerfumeDA.cs" />
+    <Compile Include="DataAccess\ProductPerfumeDiscountDA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.zh-Hant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.zh-Hant.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Security.cs" />
+    <Compile Include="DataAccess\SupplierDA.cs" />
+    <Compile Include="DataAccess\SupplierLoginLogDA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-Hant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-Hant.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

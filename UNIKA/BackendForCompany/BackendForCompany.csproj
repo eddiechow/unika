@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A2A83EF-DB4C-4360-A26A-5FC7999C38DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BackendForCompany</RootNamespace>
+    <AssemblyName>BackendForCompany</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.10\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.pdfa.5.5.10\lib\itextsharp.pdfa.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.10\lib\itextsharp.xmlworker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xtra, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xtra.5.5.10\lib\itextsharp.xtra.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PayPal, Version=1.8.0.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPal.1.8.0\lib\net451\PayPal.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PayPalCoreSDK, Version=1.7.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPalCoreSDK.1.7.1\lib\net451\PayPalCoreSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PayPalMerchantSDK, Version=2.16.204.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPalMerchantSDK.2.16.204\lib\net20\PayPalMerchantSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="ForgetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPasswordForm.Designer.cs">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\ChangePasswordUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\ChangePasswordUserCtrl.Designer.cs">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\GeneratesSalesReportUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\GeneratesSalesReportUserCtrl.designer.cs">
+      <DependentUpon>GeneratesSalesReportUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\HandleCustomerAccountUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\HandleCustomerAccountUserCtrl.designer.cs">
+      <DependentUpon>HandleCustomerAccountUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\HandleEcommerceContentUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\HandleEcommerceContentUserCtrl.designer.cs">
+      <DependentUpon>HandleEcommerceContentUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\HomeUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\HomeUserCtrl.Designer.cs">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\RecycleBinUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\RecycleBinUserCtrl.designer.cs">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\RefundUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\RefundUserCtrl.Designer.cs">
+      <DependentUpon>RefundUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm\SetPromotionUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManagerForm\SetPromotionUserCtrl.designer.cs">
+      <DependentUpon>SetPromotionUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayPalAPI.cs" />
+    <Compile Include="PhotoBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotoBoxForm.Designer.cs">
+      <DependentUpon>PhotoBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptPrinterSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiptPrinterSettingForm.Designer.cs">
+      <DependentUpon>ReceiptPrinterSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.zh-Hant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.zh-Hant.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="StaffForm\ApproveRejectOrderUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffForm\ApproveRejectOrderUserCtrl.Designer.cs">
+      <DependentUpon>ApproveRejectOrderUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm\ChangePasswordUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffForm\ChangePasswordUserCtrl.Designer.cs">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm\HomeUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffForm\HomeUserCtrl.Designer.cs">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffForm\ReportProblemUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffForm\ReportProblemUserCtrl.Designer.cs">
+      <DependentUpon>ReportProblemUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\ChangePasswordUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\ChangePasswordUserCtrl.Designer.cs">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\HomeUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\HomeUserCtrl.Designer.cs">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\LoginLogUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\LoginLogUserCtrl.designer.cs">
+      <DependentUpon>LoginLogUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\RecycleBinUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\RecycleBinUserCtrl.designer.cs">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\StaffManagmentUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\StaffManagmentUserCtrl.designer.cs">
+      <DependentUpon>StaffManagmentUserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebMasterForm\SupplierManagementUserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebMasterForm\SupplierManagementUserCtrl.designer.cs">
+      <DependentUpon>SupplierManagementUserCtrl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ForgetPasswordForm.resx">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPasswordForm.zh-Hant.resx">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.zh-Hant.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\ChangePasswordUserCtrl.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\ChangePasswordUserCtrl.zh-Hant.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\GeneratesSalesReportUserCtrl.resx">
+      <DependentUpon>GeneratesSalesReportUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\GeneratesSalesReportUserCtrl.zh-Hant.resx">
+      <DependentUpon>GeneratesSalesReportUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HandleCustomerAccountUserCtrl.resx">
+      <DependentUpon>HandleCustomerAccountUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HandleCustomerAccountUserCtrl.zh-Hant.resx">
+      <DependentUpon>HandleCustomerAccountUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HandleEcommerceContentUserCtrl.resx">
+      <DependentUpon>HandleEcommerceContentUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HandleEcommerceContentUserCtrl.zh-Hant.resx">
+      <DependentUpon>HandleEcommerceContentUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HomeUserCtrl.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\HomeUserCtrl.zh-Hant.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\MainForm.zh-Hant.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\MainForm.zh.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\RecycleBinUserCtrl.resx">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\RecycleBinUserCtrl.zh-Hant.resx">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\RefundUserCtrl.resx">
+      <DependentUpon>RefundUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\RefundUserCtrl.zh-Hant.resx">
+      <DependentUpon>RefundUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\SetPromotionUserCtrl.resx">
+      <DependentUpon>SetPromotionUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm\SetPromotionUserCtrl.zh-Hant.resx">
+      <DependentUpon>SetPromotionUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoBoxForm.resx">
+      <DependentUpon>PhotoBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoBoxForm.zh-Hant.resx">
+      <DependentUpon>PhotoBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptPrinterSettingForm.resx">
+      <DependentUpon>ReceiptPrinterSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-Hant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-Hant.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptPrinterSettingForm.zh-Hant.resx">
+      <DependentUpon>ReceiptPrinterSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ApproveRejectOrderUserCtrl.resx">
+      <DependentUpon>ApproveRejectOrderUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ApproveRejectOrderUserCtrl.zh-Hant.resx">
+      <DependentUpon>ApproveRejectOrderUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ChangePasswordUserCtrl.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ChangePasswordUserCtrl.zh-Hant.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\HomeUserCtrl.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\HomeUserCtrl.zh-Hant.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\MainForm.zh-Hant.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ReportProblemUserCtrl.resx">
+      <DependentUpon>ReportProblemUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm\ReportProblemUserCtrl.zh-Hant.resx">
+      <DependentUpon>ReportProblemUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\ChangePasswordUserCtrl.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\ChangePasswordUserCtrl.zh-Hant.resx">
+      <DependentUpon>ChangePasswordUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\HomeUserCtrl.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\HomeUserCtrl.zh-Hant.resx">
+      <DependentUpon>HomeUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\LoginLogUserCtrl.resx">
+      <DependentUpon>LoginLogUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\LoginLogUserCtrl.zh-Hant.resx">
+      <DependentUpon>LoginLogUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\MainForm.zh-Hant.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\RecycleBinUserCtrl.resx">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\RecycleBinUserCtrl.zh-Hant.resx">
+      <DependentUpon>RecycleBinUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\StaffManagmentUserCtrl.resx">
+      <DependentUpon>StaffManagmentUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\StaffManagmentUserCtrl.zh-Hant.resx">
+      <DependentUpon>StaffManagmentUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\SupplierManagementUserCtrl.resx">
+      <DependentUpon>SupplierManagementUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebMasterForm\SupplierManagementUserCtrl.zh-Hant.resx">
+      <DependentUpon>SupplierManagementUserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessClassLibrary\BackendClassLibrary.csproj">
+      <Project>{87c4d235-1a89-4785-a2e9-b74ac50573a8}</Project>
+      <Name>BackendClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refund.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\recycle-bin.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

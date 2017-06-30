@@ -1,0 +1,2616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bottleIdTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bottleIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="bottleIdTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="bottleIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 25</value>
+  </data>
+  <data name="bottleIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Name" xml:space="preserve">
+    <value>bottleIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="productDetailPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="productDetailPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="capacityErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capacityErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1027, 46</value>
+  </data>
+  <data name="capacityErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 15</value>
+  </data>
+  <data name="capacityErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="capacityErrorLabel.Text" xml:space="preserve">
+    <value>Please input 5 - 200</value>
+  </data>
+  <data name="&gt;&gt;capacityErrorLabel.Name" xml:space="preserve">
+    <value>capacityErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityErrorLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;capacityErrorLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="priceErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="priceErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 46</value>
+  </data>
+  <data name="priceErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 15</value>
+  </data>
+  <data name="priceErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="priceErrorLabel.Text" xml:space="preserve">
+    <value>Please input 1 - 300</value>
+  </data>
+  <data name="&gt;&gt;priceErrorLabel.Name" xml:space="preserve">
+    <value>priceErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;priceErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;priceErrorLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;priceErrorLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="quantityErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="quantityErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 46</value>
+  </data>
+  <data name="quantityErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 15</value>
+  </data>
+  <data name="quantityErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="quantityErrorLabel.Text" xml:space="preserve">
+    <value>Please input 1 or over</value>
+  </data>
+  <data name="&gt;&gt;quantityErrorLabel.Name" xml:space="preserve">
+    <value>quantityErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;quantityErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;quantityErrorLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;quantityErrorLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tChineseNameErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 46</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 15</value>
+  </data>
+  <data name="tChineseNameErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Text" xml:space="preserve">
+    <value>Please input name in Traditional Chinese</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameErrorLabel.Name" xml:space="preserve">
+    <value>tChineseNameErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameErrorLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameErrorLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="englishNameErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="englishNameErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 46</value>
+  </data>
+  <data name="englishNameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 15</value>
+  </data>
+  <data name="englishNameErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="englishNameErrorLabel.Text" xml:space="preserve">
+    <value>Please input name in English</value>
+  </data>
+  <data name="englishNameErrorLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;englishNameErrorLabel.Name" xml:space="preserve">
+    <value>englishNameErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;englishNameErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;englishNameErrorLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;englishNameErrorLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bottleIdHintLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bottleIdHintLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="bottleIdHintLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 15</value>
+  </data>
+  <data name="bottleIdHintLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="bottleIdHintLabel.Text" xml:space="preserve">
+    <value>The ID is generated by system</value>
+  </data>
+  <data name="&gt;&gt;bottleIdHintLabel.Name" xml:space="preserve">
+    <value>bottleIdHintLabel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdHintLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdHintLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdHintLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="capacityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1027, 0</value>
+  </data>
+  <data name="capacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 15</value>
+  </data>
+  <data name="capacityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="capacityLabel.Text" xml:space="preserve">
+    <value>Capacity (mL):</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Name" xml:space="preserve">
+    <value>capacityLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1027, 18</value>
+  </data>
+  <data name="capacityTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="capacityTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;capacityTextBox.Name" xml:space="preserve">
+    <value>capacityTextBox</value>
+  </data>
+  <data name="&gt;&gt;capacityTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;capacityTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="priceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="priceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 0</value>
+  </data>
+  <data name="priceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="priceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="priceLabel.Text" xml:space="preserve">
+    <value>Price:</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Name" xml:space="preserve">
+    <value>priceLabel</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;priceLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="quantityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="quantityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 0</value>
+  </data>
+  <data name="quantityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 15</value>
+  </data>
+  <data name="quantityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="quantityLabel.Text" xml:space="preserve">
+    <value>Quantity in Stock:</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Name" xml:space="preserve">
+    <value>quantityLabel</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tChineseNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tChineseNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 0</value>
+  </data>
+  <data name="tChineseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 15</value>
+  </data>
+  <data name="tChineseNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tChineseNameLabel.Text" xml:space="preserve">
+    <value>Name in Traditional Chinese:</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameLabel.Name" xml:space="preserve">
+    <value>tChineseNameLabel</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="englishNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="englishNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 0</value>
+  </data>
+  <data name="englishNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="englishNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="englishNameLabel.Text" xml:space="preserve">
+    <value>Name in English:</value>
+  </data>
+  <data name="&gt;&gt;englishNameLabel.Name" xml:space="preserve">
+    <value>englishNameLabel</value>
+  </data>
+  <data name="&gt;&gt;englishNameLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;englishNameLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;englishNameLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="quantityTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 18</value>
+  </data>
+  <data name="quantityTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="quantityTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="quantityTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Name" xml:space="preserve">
+    <value>quantityTextBox</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="priceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 18</value>
+  </data>
+  <data name="priceTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="priceTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="priceTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;priceTextBox.Name" xml:space="preserve">
+    <value>priceTextBox</value>
+  </data>
+  <data name="&gt;&gt;priceTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;priceTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;priceTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resource.Image4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode4" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location4" type="System.Drawing.Point, System.Drawing">
+    <value>219, 1</value>
+  </data>
+  <data name="resource.Size4" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex4" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tChineseNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 18</value>
+  </data>
+  <data name="tChineseNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="tChineseNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 25</value>
+  </data>
+  <data name="tChineseNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameTextBox.Name" xml:space="preserve">
+    <value>tChineseNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;tChineseNameTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="resource.Image5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode5" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location5" type="System.Drawing.Point, System.Drawing">
+    <value>219, 1</value>
+  </data>
+  <data name="resource.Size5" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex5" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="englishNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 18</value>
+  </data>
+  <data name="englishNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="englishNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 25</value>
+  </data>
+  <data name="englishNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;englishNameTextBox.Name" xml:space="preserve">
+    <value>englishNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;englishNameTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;englishNameTextBox.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;englishNameTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="bottleIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bottleIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="bottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="bottleIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bottleIdLabel.Text" xml:space="preserve">
+    <value>Bottle ID:</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Name" xml:space="preserve">
+    <value>bottleIdLabel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Parent" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="productDetailPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="productDetailPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="productDetailPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 61</value>
+  </data>
+  <data name="productDetailPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;productDetailPanel.Name" xml:space="preserve">
+    <value>productDetailPanel</value>
+  </data>
+  <data name="&gt;&gt;productDetailPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productDetailPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;productDetailPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="productDetailPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="capacityErrorLabel" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="priceErrorLabel" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="quantityErrorLabel" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="tChineseNameErrorLabel" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="englishNameErrorLabel" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdHintLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="capacityLabel" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="capacityTextBox" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="priceLabel" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="quantityLabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="tChineseNameLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="englishNameLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="quantityTextBox" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="priceTextBox" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="tChineseNameTextBox" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdTextBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="englishNameTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tChiDescLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tChiDescLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 0</value>
+  </data>
+  <data name="tChiDescLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 29, 0</value>
+  </data>
+  <data name="tChiDescLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 15</value>
+  </data>
+  <data name="tChiDescLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tChiDescLabel.Text" xml:space="preserve">
+    <value>Description in Traditional Chinese:</value>
+  </data>
+  <data name="&gt;&gt;tChiDescLabel.Name" xml:space="preserve">
+    <value>tChiDescLabel</value>
+  </data>
+  <data name="&gt;&gt;tChiDescLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChiDescLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;tChiDescLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="engDescLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="engDescLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="engDescLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 29, 0</value>
+  </data>
+  <data name="engDescLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 15</value>
+  </data>
+  <data name="engDescLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="engDescLabel.Text" xml:space="preserve">
+    <value>Description in English:</value>
+  </data>
+  <data name="&gt;&gt;engDescLabel.Name" xml:space="preserve">
+    <value>engDescLabel</value>
+  </data>
+  <data name="&gt;&gt;engDescLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;engDescLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;engDescLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="productDescPhotoPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="photoErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 196</value>
+  </data>
+  <data name="photoErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 34</value>
+  </data>
+  <data name="photoErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="photoErrorLabel.Text" xml:space="preserve">
+    <value>Please upload photo which is 512 × 512 pixel and not greater than 1 MB</value>
+  </data>
+  <data name="&gt;&gt;photoErrorLabel.Name" xml:space="preserve">
+    <value>photoErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;photoErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;photoErrorLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;photoErrorLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tChiDescErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tChiDescErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 196</value>
+  </data>
+  <data name="tChiDescErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 15</value>
+  </data>
+  <data name="tChiDescErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tChiDescErrorLabel.Text" xml:space="preserve">
+    <value>Please input description in Traditional Chinese</value>
+  </data>
+  <data name="tChiDescErrorLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tChiDescErrorLabel.Name" xml:space="preserve">
+    <value>tChiDescErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;tChiDescErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChiDescErrorLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;tChiDescErrorLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="engDescErrorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="engDescErrorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 196</value>
+  </data>
+  <data name="engDescErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 15</value>
+  </data>
+  <data name="engDescErrorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="engDescErrorLabel.Text" xml:space="preserve">
+    <value>Please input description in English</value>
+  </data>
+  <data name="engDescErrorLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;engDescErrorLabel.Name" xml:space="preserve">
+    <value>engDescErrorLabel</value>
+  </data>
+  <data name="&gt;&gt;engDescErrorLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;engDescErrorLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;engDescErrorLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="photoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="photoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 0</value>
+  </data>
+  <data name="photoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 29, 0</value>
+  </data>
+  <data name="photoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 15</value>
+  </data>
+  <data name="photoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="photoLabel.Text" xml:space="preserve">
+    <value>Photo:</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Name" xml:space="preserve">
+    <value>photoLabel</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;photoLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.Image6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode6" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location6" type="System.Drawing.Point, System.Drawing">
+    <value>247, 1</value>
+  </data>
+  <data name="resource.Size6" type="System.Drawing.Size, System.Drawing">
+    <value>173, 173</value>
+  </data>
+  <data name="resource.TabIndex6" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tChiDescTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 18</value>
+  </data>
+  <data name="tChiDescTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="tChiDescTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 175</value>
+  </data>
+  <data name="tChiDescTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tChiDescTextBox.Name" xml:space="preserve">
+    <value>tChiDescTextBox</value>
+  </data>
+  <data name="&gt;&gt;tChiDescTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tChiDescTextBox.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;tChiDescTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.Image7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode7" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location7" type="System.Drawing.Point, System.Drawing">
+    <value>247, 1</value>
+  </data>
+  <data name="resource.Size7" type="System.Drawing.Size, System.Drawing">
+    <value>173, 173</value>
+  </data>
+  <data name="resource.TabIndex7" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="engDescTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="engDescTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 21, 3</value>
+  </data>
+  <data name="engDescTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 175</value>
+  </data>
+  <data name="engDescTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;engDescTextBox.Name" xml:space="preserve">
+    <value>engDescTextBox</value>
+  </data>
+  <data name="&gt;&gt;engDescTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;engDescTextBox.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;engDescTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="photoPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="browsePhotoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 155</value>
+  </data>
+  <data name="browsePhotoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 23</value>
+  </data>
+  <data name="browsePhotoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="browsePhotoButton.Text" xml:space="preserve">
+    <value>Browse Photo</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Name" xml:space="preserve">
+    <value>browsePhotoButton</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.Parent" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="&gt;&gt;browsePhotoButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="productPhotoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="productPhotoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 146</value>
+  </data>
+  <data name="productPhotoBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="productPhotoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;productPhotoBox.Name" xml:space="preserve">
+    <value>productPhotoBox</value>
+  </data>
+  <data name="&gt;&gt;productPhotoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productPhotoBox.Parent" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="&gt;&gt;productPhotoBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="managementButtonPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resetButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>managementButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="addButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="addButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;addButton.Name" xml:space="preserve">
+    <value>addButton</value>
+  </data>
+  <data name="&gt;&gt;addButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;addButton.Parent" xml:space="preserve">
+    <value>managementButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;addButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="updateButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="updateButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="updateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 77</value>
+  </data>
+  <data name="updateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="updateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="updateButton.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;updateButton.Name" xml:space="preserve">
+    <value>updateButton</value>
+  </data>
+  <data name="&gt;&gt;updateButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;updateButton.Parent" xml:space="preserve">
+    <value>managementButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;updateButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="managementButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 0</value>
+  </data>
+  <data name="managementButtonPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="managementButtonPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="managementButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 111</value>
+  </data>
+  <data name="managementButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;managementButtonPanel.Name" xml:space="preserve">
+    <value>managementButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;managementButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;managementButtonPanel.Parent" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="&gt;&gt;managementButtonPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="managementButtonPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="resetButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="addButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="updateButton" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="photoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 15</value>
+  </data>
+  <data name="photoPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 18, 0</value>
+  </data>
+  <data name="photoPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="photoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 181</value>
+  </data>
+  <data name="photoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Name" xml:space="preserve">
+    <value>photoPanel</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.Parent" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;photoPanel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="photoPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="browsePhotoButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="productPhotoBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="managementButtonPanel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Absolute,18,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="productDescPhotoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 69</value>
+  </data>
+  <data name="productDescPhotoPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="productDescPhotoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 230</value>
+  </data>
+  <data name="productDescPhotoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;productDescPhotoPanel.Name" xml:space="preserve">
+    <value>productDescPhotoPanel</value>
+  </data>
+  <data name="&gt;&gt;productDescPhotoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productDescPhotoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;productDescPhotoPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="productDescPhotoPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="photoErrorLabel" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="tChiDescErrorLabel" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="engDescErrorLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tChiDescLabel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="engDescLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="photoLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="tChiDescTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="engDescTextBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="photoPanel" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="productListPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchResetButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="searchResetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="searchResetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 28</value>
+  </data>
+  <data name="searchResetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="searchResetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;searchResetButton.Name" xml:space="preserve">
+    <value>searchResetButton</value>
+  </data>
+  <data name="&gt;&gt;searchResetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchResetButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchResetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 38</value>
+  </data>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 28</value>
+  </data>
+  <data name="searchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Name" xml:space="preserve">
+    <value>searchButton</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 18</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 70</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchResetButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="searchProductPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="searchKeywordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode8" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location8" type="System.Drawing.Point, System.Drawing">
+    <value>236, 1</value>
+  </data>
+  <data name="resource.Size8" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex8" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible8" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchKeywordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 4</value>
+  </data>
+  <data name="searchKeywordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="searchKeywordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 25</value>
+  </data>
+  <data name="searchKeywordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordTextBox.Name" xml:space="preserve">
+    <value>searchKeywordTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordTextBox.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchReleaeDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaeDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchReleaeDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 9</value>
+  </data>
+  <data name="searchReleaeDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="searchReleaeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="searchReleaeDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchReleaeDateLabel.Text" xml:space="preserve">
+    <value>Releae Date</value>
+  </data>
+  <data name="&gt;&gt;searchReleaeDateLabel.Name" xml:space="preserve">
+    <value>searchReleaeDateLabel</value>
+  </data>
+  <data name="&gt;&gt;searchReleaeDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaeDateLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaeDateLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchReleaseToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaseToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchReleaseToLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchReleaseToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 9</value>
+  </data>
+  <data name="searchReleaseToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="searchReleaseToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="searchReleaseToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchReleaseToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToLabel.Name" xml:space="preserve">
+    <value>searchReleaseToLabel</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchReleaseFromDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaseFromDateTime.CustomFormat" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchReleaseFromDateTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchReleaseFromDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 4</value>
+  </data>
+  <data name="searchReleaseFromDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="searchReleaseFromDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchReleaseFromDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="searchReleaseFromDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseFromDateTime.Name" xml:space="preserve">
+    <value>searchReleaseFromDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseFromDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseFromDateTime.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseFromDateTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 9</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateRangeRadioButton.Name" xml:space="preserve">
+    <value>searchReleaseDateRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 9</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 3, 3</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateAllRadioButton.Name" xml:space="preserve">
+    <value>searchReleaseDateAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateAllRadioButton.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseDateAllRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchReleaseToDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchReleaseToDateTime.CustomFormat" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchReleaseToDateTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchReleaseToDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 4</value>
+  </data>
+  <data name="searchReleaseToDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 15, 3</value>
+  </data>
+  <data name="searchReleaseToDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="searchReleaseToDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="searchReleaseToDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToDateTime.Name" xml:space="preserve">
+    <value>searchReleaseToDateTime</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToDateTime.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchReleaseToDateTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="searchKeywordLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchKeywordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchKeywordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="searchKeywordLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="searchKeywordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="searchKeywordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchKeywordLabel.Text" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordLabel.Name" xml:space="preserve">
+    <value>searchKeywordLabel</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchKeywordLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="searchProductPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="searchProductPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="searchProductPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchProductPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 34</value>
+  </data>
+  <data name="searchProductPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel2.Name" xml:space="preserve">
+    <value>searchProductPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel2.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchProductPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchKeywordTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaeDateLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaseToLabel" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaseFromDateTime" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaseDateRangeRadioButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaseDateAllRadioButton" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="searchReleaseToDateTime" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="searchKeywordLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Absolute,173" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="searchProductPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchPriceAllRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 9</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="searchPriceAllRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;searchPriceAllRadioButton.Name" xml:space="preserve">
+    <value>searchPriceAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchPriceAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceAllRadioButton.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceAllRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 9</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;searchPriceRangeRadioButton.Name" xml:space="preserve">
+    <value>searchPriceRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchPriceRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchPriceLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchPriceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 9</value>
+  </data>
+  <data name="searchPriceLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="searchPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="searchPriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchPriceLabel.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="&gt;&gt;searchPriceLabel.Name" xml:space="preserve">
+    <value>searchPriceLabel</value>
+  </data>
+  <data name="&gt;&gt;searchPriceLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchBottleIdTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode9" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location9" type="System.Drawing.Point, System.Drawing">
+    <value>136, 1</value>
+  </data>
+  <data name="resource.Size9" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex9" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible9" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchBottleIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 4</value>
+  </data>
+  <data name="searchBottleIdTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="searchBottleIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="searchBottleIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdTextBox.Name" xml:space="preserve">
+    <value>searchBottleIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdTextBox.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchBottleIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchBottleIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchBottleIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="searchBottleIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="searchBottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 15</value>
+  </data>
+  <data name="searchBottleIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchBottleIdLabel.Text" xml:space="preserve">
+    <value>Bottle ID</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdLabel.Name" xml:space="preserve">
+    <value>searchBottleIdLabel</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchBottleIdLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchPriceFormTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode10" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location10" type="System.Drawing.Point, System.Drawing">
+    <value>44, 1</value>
+  </data>
+  <data name="resource.Size10" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex10" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible10" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchPriceFormTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchPriceFormTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 4</value>
+  </data>
+  <data name="searchPriceFormTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="searchPriceFormTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="searchPriceFormTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;searchPriceFormTextBox.Name" xml:space="preserve">
+    <value>searchPriceFormTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchPriceFormTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceFormTextBox.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceFormTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchPriceToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchPriceToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchPriceToLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchPriceToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 9</value>
+  </data>
+  <data name="searchPriceToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="searchPriceToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="searchPriceToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="searchPriceToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToLabel.Name" xml:space="preserve">
+    <value>searchPriceToLabel</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToLabel.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="searchPriceToTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode11" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location11" type="System.Drawing.Point, System.Drawing">
+    <value>44, 1</value>
+  </data>
+  <data name="resource.Size11" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex11" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible11" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchPriceToTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchPriceToTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 4</value>
+  </data>
+  <data name="searchPriceToTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 15, 3</value>
+  </data>
+  <data name="searchPriceToTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="searchPriceToTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToTextBox.Name" xml:space="preserve">
+    <value>searchPriceToTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToTextBox.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPriceToTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="searchCapacityTablePanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchCapacityTablePanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 9</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityRangeRadioButton.Name" xml:space="preserve">
+    <value>searchCapacityRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchCapacityLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchCapacityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchCapacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="searchCapacityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="searchCapacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="searchCapacityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="searchCapacityLabel.Text" xml:space="preserve">
+    <value>Capacity (mL)</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityLabel.Name" xml:space="preserve">
+    <value>searchCapacityLabel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityLabel.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode12" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location12" type="System.Drawing.Point, System.Drawing">
+    <value>44, 1</value>
+  </data>
+  <data name="resource.Size12" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex12" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible12" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 4</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="searchCapacityFormTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityFormTextBox.Name" xml:space="preserve">
+    <value>searchCapacityFormTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityFormTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityFormTextBox.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityFormTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchCapacityToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchCapacityToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchCapacityToLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchCapacityToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 9</value>
+  </data>
+  <data name="searchCapacityToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="searchCapacityToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="searchCapacityToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="searchCapacityToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToLabel.Name" xml:space="preserve">
+    <value>searchCapacityToLabel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToLabel.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="searchCapacityToTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode13" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location13" type="System.Drawing.Point, System.Drawing">
+    <value>44, 1</value>
+  </data>
+  <data name="resource.Size13" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex13" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible13" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchCapacityToTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchCapacityToTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 4</value>
+  </data>
+  <data name="searchCapacityToTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 15, 3</value>
+  </data>
+  <data name="searchCapacityToTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="searchCapacityToTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToTextBox.Name" xml:space="preserve">
+    <value>searchCapacityToTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToTextBox.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityToTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 9</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityAllRadioButton.Name" xml:space="preserve">
+    <value>searchCapacityAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityAllRadioButton.Parent" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityAllRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="searchCapacityTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 0</value>
+  </data>
+  <data name="searchCapacityTablePanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="searchCapacityTablePanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 34</value>
+  </data>
+  <data name="searchCapacityTablePanel.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchCapacityTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 34</value>
+  </data>
+  <data name="searchCapacityTablePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityTablePanel.Name" xml:space="preserve">
+    <value>searchCapacityTablePanel</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityTablePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityTablePanel.Parent" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchCapacityTablePanel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="searchCapacityTablePanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchCapacityRangeRadioButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityFormTextBox" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityToLabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityToTextBox" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityAllRadioButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="searchProductPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="searchProductPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchProductPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 34</value>
+  </data>
+  <data name="searchProductPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel1.Name" xml:space="preserve">
+    <value>searchProductPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel1.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchProductPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchProductPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchPriceAllRadioButton" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="searchPriceRangeRadioButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="searchPriceLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="searchBottleIdTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="searchBottleIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="searchPriceFormTextBox" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="searchPriceToLabel" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="searchPriceToTextBox" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="searchCapacityTablePanel" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="searchGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="searchGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1147, 94</value>
+  </data>
+  <data name="searchGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="searchGroupBox.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Name" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Parent" xml:space="preserve">
+    <value>productListPanel</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bottleDataResetButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bottleDataResetButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bottleDataResetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>775, 204</value>
+  </data>
+  <data name="bottleDataResetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="bottleDataResetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="bottleDataResetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;bottleDataResetButton.Name" xml:space="preserve">
+    <value>bottleDataResetButton</value>
+  </data>
+  <data name="&gt;&gt;bottleDataResetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleDataResetButton.Parent" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;bottleDataResetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="selectAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="selectAllButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="selectAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>868, 204</value>
+  </data>
+  <data name="selectAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="selectAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="selectAllButton.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Name" xml:space="preserve">
+    <value>selectAllButton</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Parent" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="deselectAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="deselectAllButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deselectAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>961, 204</value>
+  </data>
+  <data name="deselectAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="deselectAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="deselectAllButton.Text" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Name" xml:space="preserve">
+    <value>deselectAllButton</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Parent" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="selectedProductColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="selectedProductColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="selectedProductColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="selectedProductColumn.Width" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <metadata name="bottleIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="bottleIdColumn.HeaderText" xml:space="preserve">
+    <value>Bottle ID</value>
+  </data>
+  <data name="bottleIdColumn.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <metadata name="engNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engNameColumn.HeaderText" xml:space="preserve">
+    <value>Name in English</value>
+  </data>
+  <data name="engNameColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="engNameColumn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="tChiNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="tChiNameColumn.HeaderText" xml:space="preserve">
+    <value>Name in Trad. Chinese</value>
+  </data>
+  <data name="tChiNameColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="tChiNameColumn.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="engDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description in English</value>
+  </data>
+  <data name="engDescriptionColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="tChiDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="tChiDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description in Trad. Chinese</value>
+  </data>
+  <data name="tChiDescriptionColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="capacityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="capacityColumn.HeaderText" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="capacityColumn.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <metadata name="quantityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="quantityColumn.HeaderText" xml:space="preserve">
+    <value>Quantity in Stock</value>
+  </data>
+  <data name="quantityColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="quantityColumn.Width" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <metadata name="priceColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="priceColumn.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="priceColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="priceColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <metadata name="releaseDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="releaseDateColumn.HeaderText" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="releaseDateColumn.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="bottleListDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="bottleListDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1135, 179</value>
+  </data>
+  <data name="bottleListDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Name" xml:space="preserve">
+    <value>bottleListDataGridView</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Parent" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="deleteButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="deleteButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1054, 204</value>
+  </data>
+  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="deleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Name" xml:space="preserve">
+    <value>deleteButton</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Parent" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="perfumeListGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
+  </data>
+  <data name="perfumeListGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1147, 235</value>
+  </data>
+  <data name="perfumeListGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="perfumeListGroupBox.Text" xml:space="preserve">
+    <value>Bottle Data</value>
+  </data>
+  <data name="&gt;&gt;perfumeListGroupBox.Name" xml:space="preserve">
+    <value>perfumeListGroupBox</value>
+  </data>
+  <data name="&gt;&gt;perfumeListGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;perfumeListGroupBox.Parent" xml:space="preserve">
+    <value>productListPanel</value>
+  </data>
+  <data name="&gt;&gt;perfumeListGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="productListPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 307</value>
+  </data>
+  <data name="productListPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="productListPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 338</value>
+  </data>
+  <data name="productListPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;productListPanel.Name" xml:space="preserve">
+    <value>productListPanel</value>
+  </data>
+  <data name="&gt;&gt;productListPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productListPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;productListPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="productListPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="searchGroupBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="perfumeListGroupBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1205, 645</value>
+  </data>
+  <data name="&gt;&gt;selectedProductColumn.Name" xml:space="preserve">
+    <value>selectedProductColumn</value>
+  </data>
+  <data name="&gt;&gt;selectedProductColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleIdColumn.Name" xml:space="preserve">
+    <value>bottleIdColumn</value>
+  </data>
+  <data name="&gt;&gt;bottleIdColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engNameColumn.Name" xml:space="preserve">
+    <value>engNameColumn</value>
+  </data>
+  <data name="&gt;&gt;engNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tChiNameColumn.Name" xml:space="preserve">
+    <value>tChiNameColumn</value>
+  </data>
+  <data name="&gt;&gt;tChiNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engDescriptionColumn.Name" xml:space="preserve">
+    <value>engDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;engDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tChiDescriptionColumn.Name" xml:space="preserve">
+    <value>tChiDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;tChiDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;capacityColumn.Name" xml:space="preserve">
+    <value>capacityColumn</value>
+  </data>
+  <data name="&gt;&gt;capacityColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quantityColumn.Name" xml:space="preserve">
+    <value>quantityColumn</value>
+  </data>
+  <data name="&gt;&gt;quantityColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;priceColumn.Name" xml:space="preserve">
+    <value>priceColumn</value>
+  </data>
+  <data name="&gt;&gt;priceColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;releaseDateColumn.Name" xml:space="preserve">
+    <value>releaseDateColumn</value>
+  </data>
+  <data name="&gt;&gt;releaseDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BottleManagementUserCtrl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroUserControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>

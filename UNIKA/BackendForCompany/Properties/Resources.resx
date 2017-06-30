@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hkdText" xml:space="preserve">
+    <value>HKD</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="packageText" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="login_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="approve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\approve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="package" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\package.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accountNotExistMsg" xml:space="preserve">
+    <value>Your account does not exist.</value>
+  </data>
+  <data name="inputPassesTokenMsg" xml:space="preserve">
+    <value>Please input security token, new password and confirm password.</value>
+  </data>
+  <data name="naText" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="tokenIsSentMsg" xml:space="preserve">
+    <value>The security token is sent to email.</value>
+  </data>
+  <data name="alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expressPackageDamaged" xml:space="preserve">
+    <value>Express package has been opened/damaged</value>
+  </data>
+  <data name="askAddReportDialogbox" xml:space="preserve">
+    <value>Do you really want to add a new report?
+(After adding, you cannot modify.)</value>
+  </data>
+  <data name="failToSendMailMsg" xml:space="preserve">
+    <value>Failed to send email</value>
+  </data>
+  <data name="customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="failToChangePasswdMsg" xml:space="preserve">
+    <value>Failed to change password.</value>
+  </data>
+  <data name="rejectOrderText" xml:space="preserve">
+    <value>Reject Order</value>
+  </data>
+  <data name="approvalOrderText" xml:space="preserve">
+    <value>Approval Order</value>
+  </data>
+  <data name="askLogoutDialogbox" xml:space="preserve">
+    <value>Do you really want to logout the System?</value>
+  </data>
+  <data name="BaseText" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="passwordNotMatchMsg" xml:space="preserve">
+    <value>New password and confirm password are not match.</value>
+  </data>
+  <data name="accountLock30MinMsg" xml:space="preserve">
+    <value>You have attempted to input incorrect password. Your account is lock for 30 minutes.</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mlText" xml:space="preserve">
+    <value>mL</value>
+  </data>
+  <data name="logoutText" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="login_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resetPasswdEmailSubjectText" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="orderRejectMsg" xml:space="preserve">
+    <value>The order is rejected</value>
+  </data>
+  <data name="productDamagedText" xml:space="preserve">
+    <value>The product has been damaged</value>
+  </data>
+  <data name="apporvedBy1Text" xml:space="preserve">
+    <value>Apporved by</value>
+  </data>
+  <data name="askAddReportExceptReturnDateDialogbox" xml:space="preserve">
+    <value>Do you really want to add a new report?
+(After adding, you cannot modify except return date.)</value>
+  </data>
+  <data name="newOrderText" xml:space="preserve">
+    <value>New Order</value>
+  </data>
+  <data name="idPasswdIncorrectMsg" xml:space="preserve">
+    <value>Your ID or password is incorrect</value>
+  </data>
+  <data name="discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inputIdMsg" xml:space="preserve">
+    <value>Please input ID</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MiddleText" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="allText" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="errorText" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="productNotMatch" xml:space="preserve">
+    <value>The product does not match order</value>
+  </data>
+  <data name="accountLockedMsg" xml:space="preserve">
+    <value>Your account is locked. Please login again later.</value>
+  </data>
+  <data name="HighText" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="unika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unika.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apporvedBy2Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="passwordChangedMsg" xml:space="preserve">
+    <value>Password is changed</value>
+  </data>
+  <data name="tokenInvalidMsg" xml:space="preserve">
+    <value>Security token is invalid.</value>
+  </data>
+  <data name="uploadProblemPhotoErrorMsg" xml:space="preserve">
+    <value>Photo shound not be greater than 6 MB.</value>
+  </data>
+  <data name="bottleText" xml:space="preserve">
+    <value>Bottle</value>
+  </data>
+  <data name="handle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attentionText" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="inputIdPasswordMsg" xml:space="preserve">
+    <value>Please input ID and password</value>
+  </data>
+  <data name="resetPasswdEmailBodyText2" xml:space="preserve">
+    <value> . The token will be voided after 5 minutes.
+
+Thanks,
+UNIKA</value>
+  </data>
+  <data name="askRecordReturnDateDialogbox" xml:space="preserve">
+    <value>Do you really want to record the return date?
+(After record, you cannot modify.)</value>
+  </data>
+  <data name="rejectedText" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resetPasswdEmailBodyText1" xml:space="preserve">
+    <value>,
+
+Hi! Your security token is </value>
+  </data>
+  <data name="orderApprovalMsg" xml:space="preserve">
+    <value>The order is approved</value>
+  </data>
+  <data name="perfumeText" xml:space="preserve">
+    <value>Perfume</value>
+  </data>
+  <data name="addNewReportSuccessMsg" xml:space="preserve">
+    <value>Add a new report successsfully</value>
+  </data>
+  <data name="failToUpdateMsg" xml:space="preserve">
+    <value>Failed to update</value>
+  </data>
+  <data name="amountRefundedMsg" xml:space="preserve">
+    <value>Paid amount has been refunded</value>
+  </data>
+  <data name="failGetPaymentStatusMsg" xml:space="preserve">
+    <value>Failed to get status</value>
+  </data>
+  <data name="failRefundMsg" xml:space="preserve">
+    <value>Failed to refund</value>
+  </data>
+  <data name="paidText" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="refundedText" xml:space="preserve">
+    <value>Refunded</value>
+  </data>
+  <data name="unpaidText" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="addSuccessMsg" xml:space="preserve">
+    <value>Add Successfully</value>
+  </data>
+  <data name="emailExists" xml:space="preserve">
+    <value>The email exists</value>
+  </data>
+  <data name="failToAddMsg" xml:space="preserve">
+    <value>Failed to add</value>
+  </data>
+  <data name="inputValidEmail" xml:space="preserve">
+    <value>Please input valid Email</value>
+  </data>
+  <data name="managerText" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="staffText" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="webMasterText" xml:space="preserve">
+    <value>Web Master</value>
+  </data>
+  <data name="deleteAccountMsg" xml:space="preserve">
+    <value>The account(s) has/have been deleted.</value>
+  </data>
+  <data name="deleteAccountYesNoMsg" xml:space="preserve">
+    <value>Do you delete account(s)?</value>
+  </data>
+  <data name="deleteTitle" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="selectAccountMsg" xml:space="preserve">
+    <value>Please select account(s)</value>
+  </data>
+  <data name="updateSuccessMsg" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="deletedAccountRecoverMsg" xml:space="preserve">
+    <value>Deleted account(s) has/have been recovered.</value>
+  </data>
+  <data name="deletePermanentlyAccountMsg" xml:space="preserve">
+    <value>The account(s) has/have been deleted permanently.</value>
+  </data>
+  <data name="deletePermanentlyAccountYesNoMsg" xml:space="preserve">
+    <value>Do you delete account(s) permanently?</value>
+  </data>
+  <data name="recycle_bin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycle-bin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deleteNoticeMsg" xml:space="preserve">
+    <value>The notice has been deleted.</value>
+  </data>
+  <data name="deleteNoticeYesNoMsg" xml:space="preserve">
+    <value>Do you delete notice?</value>
+  </data>
+  <data name="selectNoticeMsg" xml:space="preserve">
+    <value>Please select notice</value>
+  </data>
+  <data name="femaleText" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="maleText" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="deleteDiscountMsg" xml:space="preserve">
+    <value>Discount have been deleted.</value>
+  </data>
+  <data name="deleteDiscountYesNoMsg" xml:space="preserve">
+    <value>Do you delete discount?</value>
+  </data>
+  <data name="selectDiscountMsg" xml:space="preserve">
+    <value>Please select discount</value>
+  </data>
+  <data name="selectProductMsg" xml:space="preserve">
+    <value>Please select product</value>
+  </data>
+  <data name="refundYesNoMsg" xml:space="preserve">
+    <value>Are you sure to refund this transition?</value>
+  </data>
+  <data name="confirmationText" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="invoiceGeneratedMsg" xml:space="preserve">
+    <value>The invoice is generated in Desktop.</value>
+  </data>
+  <data name="nonConnectReceiptPrinterMsg" xml:space="preserve">
+    <value>The receipt printer is not connected!</value>
+  </data>
+  <data name="nonSelectReceiptPrinterMsg" xml:space="preserve">
+    <value>The receipt printer is not selected</value>
+  </data>
+  <data name="selectReceiptPrinterFirstMsg" xml:space="preserve">
+    <value>Please select receipt printer first</value>
+  </data>
+  <data name="selectReceiptPrinterMsg" xml:space="preserve">
+    <value>Please select receipt printer</value>
+  </data>
+</root>

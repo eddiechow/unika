@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accountLock30MinMsg" xml:space="preserve">
+    <value>你已經嘗試輸入5次不正確密碼，你的帳戶封鎖被30分鐘。</value>
+  </data>
+  <data name="accountNotExistMsg" xml:space="preserve">
+    <value>該帳戶不存在</value>
+  </data>
+  <data name="failToSendMailMsg" xml:space="preserve">
+    <value>發送電郵失敗</value>
+  </data>
+  <data name="idPasswdIncorrectMsg" xml:space="preserve">
+    <value>你的ID或密碼不正確</value>
+  </data>
+  <data name="inputIdMsg" xml:space="preserve">
+    <value>請輸入ID</value>
+  </data>
+  <data name="inputIdPasswordMsg" xml:space="preserve">
+    <value>請輸入ID和密碼</value>
+  </data>
+  <data name="inputPassesTokenMsg" xml:space="preserve">
+    <value>請輸入安全代碼、密碼和確認密碼。</value>
+  </data>
+  <data name="passwordChangedMsg" xml:space="preserve">
+    <value>密碼已更改</value>
+  </data>
+  <data name="passwordNotMatchMsg" xml:space="preserve">
+    <value>新密碼與確認密碼不同。</value>
+  </data>
+  <data name="resetPasswdEmailBodyText1" xml:space="preserve">
+    <value>﹕
+
+你好! 你的安全代碼是﹕ </value>
+  </data>
+  <data name="resetPasswdEmailBodyText2" xml:space="preserve">
+    <value> 。代碼將於5分鐘後失效。
+
+謝謝
+UNIKA</value>
+  </data>
+  <data name="resetPasswdEmailSubjectText" xml:space="preserve">
+    <value>重設密碼</value>
+  </data>
+  <data name="accountLockedMsg" xml:space="preserve">
+    <value>你的帳戶已封鎖，請稍後再登入。</value>
+  </data>
+  <data name="tokenInvalidMsg" xml:space="preserve">
+    <value>安全代碼無效</value>
+  </data>
+  <data name="tokenIsSentMsg" xml:space="preserve">
+    <value>安全代碼已發送至電郵</value>
+  </data>
+  <data name="askLogoutDialogbox" xml:space="preserve">
+    <value>你確定要登出系統嗎？</value>
+  </data>
+  <data name="logoutText" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="failToChangePasswdMsg" xml:space="preserve">
+    <value>更改密碼失敗</value>
+  </data>
+  <data name="allText" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="errorText" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="failToUpdateMsg" xml:space="preserve">
+    <value>更新失敗</value>
+  </data>
+  <data name="orderApprovalMsg" xml:space="preserve">
+    <value>該訂單已批准</value>
+  </data>
+  <data name="orderRejectMsg" xml:space="preserve">
+    <value>該訂單已拒絕</value>
+  </data>
+  <data name="attentionText" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="bottleText" xml:space="preserve">
+    <value>香水樽</value>
+  </data>
+  <data name="packageText" xml:space="preserve">
+    <value>包裝</value>
+  </data>
+  <data name="perfumeText" xml:space="preserve">
+    <value>香水</value>
+  </data>
+  <data name="apporvedBy1Text" xml:space="preserve">
+    <value>由 </value>
+  </data>
+  <data name="apporvedBy2Text" xml:space="preserve">
+    <value> 審核</value>
+  </data>
+  <data name="approvalOrderText" xml:space="preserve">
+    <value>批准訂單</value>
+  </data>
+  <data name="BaseText" xml:space="preserve">
+    <value>基調</value>
+  </data>
+  <data name="HighText" xml:space="preserve">
+    <value>高調</value>
+  </data>
+  <data name="hkdText" xml:space="preserve">
+    <value>港幣$</value>
+  </data>
+  <data name="MiddleText" xml:space="preserve">
+    <value>中調</value>
+  </data>
+  <data name="mlText" xml:space="preserve">
+    <value>毫升</value>
+  </data>
+  <data name="naText" xml:space="preserve">
+    <value>不適用</value>
+  </data>
+  <data name="newOrderText" xml:space="preserve">
+    <value>新訂單</value>
+  </data>
+  <data name="rejectedText" xml:space="preserve">
+    <value>拒絕</value>
+  </data>
+  <data name="rejectOrderText" xml:space="preserve">
+    <value>拒絕訂單</value>
+  </data>
+  <data name="addNewReportSuccessMsg" xml:space="preserve">
+    <value>成功加入新報告</value>
+  </data>
+  <data name="askAddReportDialogbox" xml:space="preserve">
+    <value>你確定要加入新報告嗎？
+（加入後無法更改）</value>
+  </data>
+  <data name="askAddReportExceptReturnDateDialogbox" xml:space="preserve">
+    <value>你確定要加入新報告嗎？
+（除了退回日期之外，加入後無法更改）</value>
+  </data>
+  <data name="askRecordReturnDateDialogbox" xml:space="preserve">
+    <value>你確定要紀錄退回日期嗎？
+（紀錄後無法更改）</value>
+  </data>
+  <data name="expressPackageDamaged" xml:space="preserve">
+    <value>快件包裝已開封／損壞</value>
+  </data>
+  <data name="productDamagedText" xml:space="preserve">
+    <value>產品已損壞</value>
+  </data>
+  <data name="productNotMatch" xml:space="preserve">
+    <value>產品與訂單不同</value>
+  </data>
+  <data name="uploadProblemPhotoErrorMsg" xml:space="preserve">
+    <value>相片不能大於 6 MB。</value>
+  </data>
+  <data name="amountRefundedMsg" xml:space="preserve">
+    <value>已付的金額已經退回</value>
+  </data>
+  <data name="failGetPaymentStatusMsg" xml:space="preserve">
+    <value>無法取得狀況</value>
+  </data>
+  <data name="failRefundMsg" xml:space="preserve">
+    <value>無法退款</value>
+  </data>
+  <data name="paidText" xml:space="preserve">
+    <value>已付款</value>
+  </data>
+  <data name="refundedText" xml:space="preserve">
+    <value>已退款</value>
+  </data>
+  <data name="unpaidText" xml:space="preserve">
+    <value>未付款</value>
+  </data>
+  <data name="addSuccessMsg" xml:space="preserve">
+    <value>成功新增</value>
+  </data>
+  <data name="emailExists" xml:space="preserve">
+    <value>該電郵地址存在</value>
+  </data>
+  <data name="failToAddMsg" xml:space="preserve">
+    <value>無法新增</value>
+  </data>
+  <data name="inputValidEmail" xml:space="preserve">
+    <value>請輸入有效電郵地址</value>
+  </data>
+  <data name="managerText" xml:space="preserve">
+    <value>經理</value>
+  </data>
+  <data name="staffText" xml:space="preserve">
+    <value>員工</value>
+  </data>
+  <data name="webMasterText" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="deleteAccountMsg" xml:space="preserve">
+    <value>帳戶已刪除</value>
+  </data>
+  <data name="deleteAccountYesNoMsg" xml:space="preserve">
+    <value>是否要刪除帳戶？</value>
+  </data>
+  <data name="deleteTitle" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="selectAccountMsg" xml:space="preserve">
+    <value>請選擇帳戶</value>
+  </data>
+  <data name="updateSuccessMsg" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+  <data name="deletedAccountRecoverMsg" xml:space="preserve">
+    <value>刪除的帳戶已恢復</value>
+  </data>
+  <data name="deletePermanentlyAccountMsg" xml:space="preserve">
+    <value>帳戶已永久刪除</value>
+  </data>
+  <data name="deletePermanentlyAccountYesNoMsg" xml:space="preserve">
+    <value>是否要永久刪除帳戶？</value>
+  </data>
+  <data name="deleteNoticeMsg" xml:space="preserve">
+    <value>帳戶已公告</value>
+  </data>
+  <data name="deleteNoticeYesNoMsg" xml:space="preserve">
+    <value>是否要刪除公告？</value>
+  </data>
+  <data name="selectNoticeMsg" xml:space="preserve">
+    <value>請選擇公告</value>
+  </data>
+  <data name="femaleText" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="maleText" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="deleteDiscountMsg" xml:space="preserve">
+    <value>折扣已刪除</value>
+  </data>
+  <data name="deleteDiscountYesNoMsg" xml:space="preserve">
+    <value>是否要折扣帳戶？</value>
+  </data>
+  <data name="selectDiscountMsg" xml:space="preserve">
+    <value>請選擇折扣</value>
+  </data>
+  <data name="selectProductMsg" xml:space="preserve">
+    <value>請選擇產品</value>
+  </data>
+  <data name="refundYesNoMsg" xml:space="preserve">
+    <value>你確定要為這個訂單退款？</value>
+  </data>
+  <data name="confirmationText" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="invoiceGeneratedMsg" xml:space="preserve">
+    <value>發票已成生至桌面</value>
+  </data>
+  <data name="nonConnectReceiptPrinterMsg" xml:space="preserve">
+    <value>沒有連接收據打印機</value>
+  </data>
+  <data name="nonSelectReceiptPrinterMsg" xml:space="preserve">
+    <value>沒有選擇收據打印機</value>
+  </data>
+  <data name="selectReceiptPrinterFirstMsg" xml:space="preserve">
+    <value>請先選擇收據打印機</value>
+  </data>
+  <data name="selectReceiptPrinterMsg" xml:space="preserve">
+    <value>請選擇收據打印機</value>
+  </data>
+</root>

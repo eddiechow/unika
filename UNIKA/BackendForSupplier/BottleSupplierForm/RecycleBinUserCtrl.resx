@@ -1,0 +1,1365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="selectedProductColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bottleIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="engNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tChiNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="engDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tChiDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="capacityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="quantityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="priceColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="releaseDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dateDeleteColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bottleListDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 71</value>
+  </data>
+  <data name="bottleListDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 534</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bottleListDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Name" xml:space="preserve">
+    <value>bottleListDataGridView</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bottleListDataGridView.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="selectedProductColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="selectedProductColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="selectedProductColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="selectedProductColumn.Width" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <metadata name="bottleIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="bottleIdColumn.HeaderText" xml:space="preserve">
+    <value>Bottle ID</value>
+  </data>
+  <data name="bottleIdColumn.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <metadata name="engNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engNameColumn.HeaderText" xml:space="preserve">
+    <value>Name in English</value>
+  </data>
+  <data name="engNameColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="engNameColumn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="tChiNameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="tChiNameColumn.HeaderText" xml:space="preserve">
+    <value>Name in Trad. Chinese</value>
+  </data>
+  <data name="tChiNameColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="tChiNameColumn.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="engDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description in English</value>
+  </data>
+  <data name="engDescriptionColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="tChiDescriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="tChiDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>Description in Trad. Chinese</value>
+  </data>
+  <data name="tChiDescriptionColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <metadata name="capacityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="capacityColumn.HeaderText" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="capacityColumn.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <metadata name="quantityColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="quantityColumn.HeaderText" xml:space="preserve">
+    <value>Quantity in Stock</value>
+  </data>
+  <data name="quantityColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="quantityColumn.Width" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <metadata name="priceColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="priceColumn.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="priceColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="priceColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <metadata name="releaseDateColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="releaseDateColumn.HeaderText" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="releaseDateColumn.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <metadata name="dateDeleteColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dateDeleteColumn.HeaderText" xml:space="preserve">
+    <value>Delete Date</value>
+  </data>
+  <data name="dateDeleteColumn.Width" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="selectAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="selectAllButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="selectAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 611</value>
+  </data>
+  <data name="selectAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="selectAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="selectAllButton.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Name" xml:space="preserve">
+    <value>selectAllButton</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;selectAllButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="deselectAllButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="deselectAllButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deselectAllButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 611</value>
+  </data>
+  <data name="deselectAllButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="deselectAllButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="deselectAllButton.Text" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Name" xml:space="preserve">
+    <value>deselectAllButton</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deselectAllButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="permanentlyDeleteButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="permanentlyDeleteButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="permanentlyDeleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1045, 611</value>
+  </data>
+  <data name="permanentlyDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 31</value>
+  </data>
+  <data name="permanentlyDeleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="permanentlyDeleteButton.Text" xml:space="preserve">
+    <value>Permanently Delete</value>
+  </data>
+  <data name="&gt;&gt;permanentlyDeleteButton.Name" xml:space="preserve">
+    <value>permanentlyDeleteButton</value>
+  </data>
+  <data name="&gt;&gt;permanentlyDeleteButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;permanentlyDeleteButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;permanentlyDeleteButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="recoverButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="recoverButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="recoverButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 611</value>
+  </data>
+  <data name="recoverButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="recoverButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="recoverButton.Text" xml:space="preserve">
+    <value>Recover</value>
+  </data>
+  <data name="&gt;&gt;recoverButton.Name" xml:space="preserve">
+    <value>recoverButton</value>
+  </data>
+  <data name="&gt;&gt;recoverButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;recoverButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;recoverButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Name" xml:space="preserve">
+    <value>deleteDateAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Name" xml:space="preserve">
+    <value>deleteToDateTime</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Name" xml:space="preserve">
+    <value>deleteDateLabel</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Name" xml:space="preserve">
+    <value>deleteDateToLabel</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Name" xml:space="preserve">
+    <value>deleteDateRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Name" xml:space="preserve">
+    <value>deleteFromDateTime</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="searchPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 34</value>
+  </data>
+  <data name="searchPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="searchPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 31</value>
+  </data>
+  <data name="searchPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;searchPanel2.Name" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;searchPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="resetButton" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="deleteDateAllRadioButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="deleteToDateTime" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="deleteDateLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="deleteDateToLabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="deleteDateRangeRadioButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="deleteFromDateTime" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="resetButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1063, 3</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="deleteDateAllRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteDateAllRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="deleteDateAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 8</value>
+  </data>
+  <data name="deleteDateAllRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 3, 3</value>
+  </data>
+  <data name="deleteDateAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="deleteDateAllRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="deleteDateAllRadioButton.Text" xml:space="preserve">
+    <value> All</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Name" xml:space="preserve">
+    <value>deleteDateAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateAllRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="deleteToDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteToDateTime.CustomFormat" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deleteToDateTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deleteToDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 3</value>
+  </data>
+  <data name="deleteToDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 15, 3</value>
+  </data>
+  <data name="deleteToDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="deleteToDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="deleteToDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Name" xml:space="preserve">
+    <value>deleteToDateTime</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteToDateTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="deleteDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="deleteDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="deleteDateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="deleteDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="deleteDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="deleteDateLabel.Text" xml:space="preserve">
+    <value>Delete Date</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Name" xml:space="preserve">
+    <value>deleteDateLabel</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="deleteDateToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteDateToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="deleteDateToLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deleteDateToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 8</value>
+  </data>
+  <data name="deleteDateToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="deleteDateToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="deleteDateToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="deleteDateToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Name" xml:space="preserve">
+    <value>deleteDateToLabel</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateToLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="deleteDateRangeRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteDateRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 8</value>
+  </data>
+  <data name="deleteDateRangeRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="deleteDateRangeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="deleteDateRangeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Name" xml:space="preserve">
+    <value>deleteDateRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteDateRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="deleteFromDateTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="deleteFromDateTime.CustomFormat" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deleteFromDateTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deleteFromDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 3</value>
+  </data>
+  <data name="deleteFromDateTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="deleteFromDateTime.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="deleteFromDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="deleteFromDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Name" xml:space="preserve">
+    <value>deleteFromDateTime</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.Parent" xml:space="preserve">
+    <value>searchPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteFromDateTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="searchPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Name" xml:space="preserve">
+    <value>keywordLabel</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Name" xml:space="preserve">
+    <value>capacityAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Name" xml:space="preserve">
+    <value>capacityToTextBox</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Name" xml:space="preserve">
+    <value>capacityToLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Name" xml:space="preserve">
+    <value>capacityFormTextBox</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Name" xml:space="preserve">
+    <value>capacityRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Name" xml:space="preserve">
+    <value>capacityLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Name" xml:space="preserve">
+    <value>keywordTextBox</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Name" xml:space="preserve">
+    <value>bottleIdLabel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Name" xml:space="preserve">
+    <value>bottleIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="searchPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="searchPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="searchPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1153, 31</value>
+  </data>
+  <data name="searchPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;searchPanel1.Name" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;searchPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="keywordLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="capacityAllRadioButton" Row="0" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="capacityToTextBox" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="capacityToLabel" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="capacityFormTextBox" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="capacityRangeRadioButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="capacityLabel" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="keywordTextBox" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="bottleIdTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="keywordLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="keywordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="keywordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 8</value>
+  </data>
+  <data name="keywordLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="keywordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="keywordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="keywordLabel.Text" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Name" xml:space="preserve">
+    <value>keywordLabel</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;keywordLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="capacityAllRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="capacityAllRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capacityAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>892, 8</value>
+  </data>
+  <data name="capacityAllRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="capacityAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="capacityAllRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="capacityAllRadioButton.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Name" xml:space="preserve">
+    <value>capacityAllRadioButton</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityAllRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="capacityToTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityToTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityToTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 3</value>
+  </data>
+  <data name="capacityToTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 15, 3</value>
+  </data>
+  <data name="capacityToTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="capacityToTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Name" xml:space="preserve">
+    <value>capacityToTextBox</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityToTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="capacityToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="capacityToLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capacityToLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 8</value>
+  </data>
+  <data name="capacityToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="capacityToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="capacityToLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="capacityToLabel.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Name" xml:space="preserve">
+    <value>capacityToLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityToLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="capacityFormTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>64, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityFormTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="capacityFormTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 3</value>
+  </data>
+  <data name="capacityFormTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="capacityFormTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="capacityFormTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Name" xml:space="preserve">
+    <value>capacityFormTextBox</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityFormTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="capacityRangeRadioButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="capacityRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 8</value>
+  </data>
+  <data name="capacityRangeRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 0, 3</value>
+  </data>
+  <data name="capacityRangeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="capacityRangeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Name" xml:space="preserve">
+    <value>capacityRangeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroRadioButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityRangeRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="capacityLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="capacityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="capacityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 8</value>
+  </data>
+  <data name="capacityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="capacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="capacityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="capacityLabel.Text" xml:space="preserve">
+    <value>Capacity (mL)</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Name" xml:space="preserve">
+    <value>capacityLabel</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;capacityLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>236, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="keywordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 3</value>
+  </data>
+  <data name="keywordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="keywordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 25</value>
+  </data>
+  <data name="keywordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Name" xml:space="preserve">
+    <value>keywordTextBox</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;keywordTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bottleIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="bottleIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bottleIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="bottleIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="bottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 15</value>
+  </data>
+  <data name="bottleIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bottleIdLabel.Text" xml:space="preserve">
+    <value>Bottle ID</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Name" xml:space="preserve">
+    <value>bottleIdLabel</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;bottleIdLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bottleIdTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>136, 1</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bottleIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 3</value>
+  </data>
+  <data name="bottleIdTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 31, 3</value>
+  </data>
+  <data name="bottleIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="bottleIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Name" xml:space="preserve">
+    <value>bottleIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.Parent" xml:space="preserve">
+    <value>searchPanel1</value>
+  </data>
+  <data name="&gt;&gt;bottleIdTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1205, 645</value>
+  </data>
+  <data name="&gt;&gt;selectedProductColumn.Name" xml:space="preserve">
+    <value>selectedProductColumn</value>
+  </data>
+  <data name="&gt;&gt;selectedProductColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottleIdColumn.Name" xml:space="preserve">
+    <value>bottleIdColumn</value>
+  </data>
+  <data name="&gt;&gt;bottleIdColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engNameColumn.Name" xml:space="preserve">
+    <value>engNameColumn</value>
+  </data>
+  <data name="&gt;&gt;engNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tChiNameColumn.Name" xml:space="preserve">
+    <value>tChiNameColumn</value>
+  </data>
+  <data name="&gt;&gt;tChiNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engDescriptionColumn.Name" xml:space="preserve">
+    <value>engDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;engDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tChiDescriptionColumn.Name" xml:space="preserve">
+    <value>tChiDescriptionColumn</value>
+  </data>
+  <data name="&gt;&gt;tChiDescriptionColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;capacityColumn.Name" xml:space="preserve">
+    <value>capacityColumn</value>
+  </data>
+  <data name="&gt;&gt;capacityColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quantityColumn.Name" xml:space="preserve">
+    <value>quantityColumn</value>
+  </data>
+  <data name="&gt;&gt;quantityColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;priceColumn.Name" xml:space="preserve">
+    <value>priceColumn</value>
+  </data>
+  <data name="&gt;&gt;priceColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;releaseDateColumn.Name" xml:space="preserve">
+    <value>releaseDateColumn</value>
+  </data>
+  <data name="&gt;&gt;releaseDateColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateDeleteColumn.Name" xml:space="preserve">
+    <value>dateDeleteColumn</value>
+  </data>
+  <data name="&gt;&gt;dateDeleteColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RecycleBinUserCtrl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroUserControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>

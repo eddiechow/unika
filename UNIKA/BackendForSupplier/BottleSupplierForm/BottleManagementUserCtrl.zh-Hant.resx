@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="resource.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="capacityErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 15</value>
+  </data>
+  <data name="capacityErrorLabel.Text" xml:space="preserve">
+    <value>請輸入 5 至 200</value>
+  </data>
+  <data name="priceErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 15</value>
+  </data>
+  <data name="priceErrorLabel.Text" xml:space="preserve">
+    <value>請輸入 1 至 300</value>
+  </data>
+  <data name="quantityErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="quantityErrorLabel.Text" xml:space="preserve">
+    <value>請輸入1或以上</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="tChineseNameErrorLabel.Text" xml:space="preserve">
+    <value>請輸入繁體中文名稱</value>
+  </data>
+  <data name="englishNameErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="englishNameErrorLabel.Text" xml:space="preserve">
+    <value>請輸入英文名稱</value>
+  </data>
+  <data name="bottleIdHintLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 15</value>
+  </data>
+  <data name="bottleIdHintLabel.Text" xml:space="preserve">
+    <value>該ID由系統產生</value>
+  </data>
+  <data name="capacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 15</value>
+  </data>
+  <data name="capacityLabel.Text" xml:space="preserve">
+    <value>容量 （毫升）：</value>
+  </data>
+  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode1" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout1" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock1" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle1" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex1" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation1" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="priceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="priceLabel.Text" xml:space="preserve">
+    <value>價錢：</value>
+  </data>
+  <data name="quantityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="quantityLabel.Text" xml:space="preserve">
+    <value>存貨數量：</value>
+  </data>
+  <data name="tChineseNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="tChineseNameLabel.Text" xml:space="preserve">
+    <value>繁體中文名稱：</value>
+  </data>
+  <data name="englishNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="englishNameLabel.Text" xml:space="preserve">
+    <value>英文名稱：</value>
+  </data>
+  <data name="resource.AccessibleDescription2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode2" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout2" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock2" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle2" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize2" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation2" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor3" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode3" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock3" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle3" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize3" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft3" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation3" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.AccessibleDescription4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor4" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode4" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout4" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock4" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle4" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign4" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex4" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize4" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft4" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign4" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation4" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.AccessibleDescription5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor5" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode5" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout5" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock5" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle5" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign5" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex5" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize5" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft5" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign5" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation5" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="bottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="bottleIdLabel.Text" xml:space="preserve">
+    <value>香水樽 ID：</value>
+  </data>
+  <data name="tChiDescLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="tChiDescLabel.Text" xml:space="preserve">
+    <value>繁體中文描述：</value>
+  </data>
+  <data name="engDescLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="engDescLabel.Text" xml:space="preserve">
+    <value>英文描述：</value>
+  </data>
+  <data name="photoErrorLabel.Text" xml:space="preserve">
+    <value>請上載 512 × 512 像素並不大於 1 MB 的相片</value>
+  </data>
+  <data name="tChiDescErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="tChiDescErrorLabel.Text" xml:space="preserve">
+    <value>請輸入繁體中文描述</value>
+  </data>
+  <data name="engDescErrorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="engDescErrorLabel.Text" xml:space="preserve">
+    <value>請輸入英文描述</value>
+  </data>
+  <data name="photoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="photoLabel.Text" xml:space="preserve">
+    <value>相片：</value>
+  </data>
+  <data name="resource.AccessibleDescription6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor6" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode6" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout6" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock6" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle6" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign6" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex6" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize6" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft6" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign6" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation6" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.AccessibleDescription7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor7" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode7" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout7" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock7" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle7" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign7" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex7" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize7" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft7" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign7" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation7" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="browsePhotoButton.Text" xml:space="preserve">
+    <value>瀏覽相片</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="updateButton.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="searchResetButton.Text" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="resource.AccessibleDescription8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor8" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize8" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode8" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout8" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock8" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle8" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign8" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex8" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize8" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft8" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign8" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation8" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchKeywordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 4</value>
+  </data>
+  <data name="searchReleaeDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 9</value>
+  </data>
+  <data name="searchReleaeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="searchReleaeDateLabel.Text" xml:space="preserve">
+    <value>推出日期</value>
+  </data>
+  <data name="searchReleaseToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 9</value>
+  </data>
+  <data name="searchReleaseToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 15</value>
+  </data>
+  <data name="searchReleaseToLabel.Text" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="searchReleaseFromDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 4</value>
+  </data>
+  <data name="searchReleaseDateRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 9</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 9</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="searchReleaseDateAllRadioButton.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="searchReleaseToDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 4</value>
+  </data>
+  <data name="searchKeywordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="searchKeywordLabel.Text" xml:space="preserve">
+    <value>關鍵字</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 9</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="searchPriceAllRadioButton.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="searchPriceRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 9</value>
+  </data>
+  <data name="searchPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 9</value>
+  </data>
+  <data name="searchPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="searchPriceLabel.Text" xml:space="preserve">
+    <value>價錢</value>
+  </data>
+  <data name="resource.AccessibleDescription9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor9" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize9" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode9" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout9" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock9" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle9" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign9" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex9" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize9" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft9" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign9" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation9" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchBottleIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 4</value>
+  </data>
+  <data name="searchBottleIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="searchBottleIdLabel.Text" xml:space="preserve">
+    <value>香水樽 ID</value>
+  </data>
+  <data name="resource.AccessibleDescription10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor10" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize10" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode10" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout10" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock10" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle10" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign10" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex10" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize10" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft10" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign10" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation10" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchPriceFormTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 4</value>
+  </data>
+  <data name="searchPriceToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 9</value>
+  </data>
+  <data name="searchPriceToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 15</value>
+  </data>
+  <data name="searchPriceToLabel.Text" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="resource.AccessibleDescription11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor11" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize11" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode11" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout11" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock11" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle11" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign11" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex11" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize11" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft11" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign11" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation11" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchPriceToTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 4</value>
+  </data>
+  <data name="searchCapacityRangeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 9</value>
+  </data>
+  <data name="searchCapacityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 15</value>
+  </data>
+  <data name="searchCapacityLabel.Text" xml:space="preserve">
+    <value>容量 （毫升）</value>
+  </data>
+  <data name="resource.AccessibleDescription12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor12" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize12" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode12" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout12" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock12" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle12" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign12" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex12" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize12" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft12" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign12" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation12" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchCapacityFormTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 4</value>
+  </data>
+  <data name="searchCapacityToLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 9</value>
+  </data>
+  <data name="resource.AccessibleDescription13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Anchor13" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize13" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode13" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.BackgroundImage13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout13" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Dock13" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.FlatStyle13" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Font13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageAlign13" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex13" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageKey13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.MaximumSize13" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft13" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign13" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation13" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="searchCapacityToTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 4</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 9</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="searchCapacityAllRadioButton.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="searchCapacityTablePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 0</value>
+  </data>
+  <data name="searchCapacityTablePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 34</value>
+  </data>
+  <data name="searchGroupBox.Text" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="bottleDataResetButton.Text" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="selectAllButton.Text" xml:space="preserve">
+    <value>全選</value>
+  </data>
+  <data name="deselectAllButton.Text" xml:space="preserve">
+    <value>取消全選</value>
+  </data>
+  <data name="bottleIdColumn.HeaderText" xml:space="preserve">
+    <value>香水樽 ID</value>
+  </data>
+  <data name="bottleIdColumn.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="engNameColumn.HeaderText" xml:space="preserve">
+    <value>英文名稱</value>
+  </data>
+  <data name="tChiNameColumn.HeaderText" xml:space="preserve">
+    <value>繁體中文名稱</value>
+  </data>
+  <data name="tChiNameColumn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="engDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>英文描述</value>
+  </data>
+  <data name="tChiDescriptionColumn.HeaderText" xml:space="preserve">
+    <value>繁體中文描述</value>
+  </data>
+  <data name="capacityColumn.HeaderText" xml:space="preserve">
+    <value>容量</value>
+  </data>
+  <data name="capacityColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="quantityColumn.HeaderText" xml:space="preserve">
+    <value>存貨數量</value>
+  </data>
+  <data name="quantityColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="priceColumn.HeaderText" xml:space="preserve">
+    <value>價錢</value>
+  </data>
+  <data name="releaseDateColumn.HeaderText" xml:space="preserve">
+    <value>推出日期</value>
+  </data>
+  <data name="releaseDateColumn.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="perfumeListGroupBox.Text" xml:space="preserve">
+    <value>香水樽資料</value>
+  </data>
+</root>
